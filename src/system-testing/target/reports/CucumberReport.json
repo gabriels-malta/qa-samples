@@ -1,0 +1,1567 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3471433000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should be in home page",
+            "match": {
+              "location": "NewProcessStep.userShouldBeOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 330480700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click in button \"btn-novo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "btn-novo",
+                  "offset": 22
+                }
+              ],
+              "location": "SharedSteps.userClickInButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 321029200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "fill select field with value \"S\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "S",
+                  "offset": 30
+                }
+              ],
+              "location": "NewProcessStep.fillSelectFieldWithValue(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 250778700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "fill option field with value \"S\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "S",
+                  "offset": 30
+                }
+              ],
+              "location": "NewProcessStep.fillOptionFieldWithValue(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59713800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "fill field \"processo_data_entrada\" with value \"04/07/2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_data_entrada",
+                  "offset": 12
+                },
+                {
+                  "val": "04/07/2020",
+                  "offset": 47
+                }
+              ],
+              "location": "SharedSteps.fillFieldWithValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65891200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "fill field \"processo_status\" with value \"status_999\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_status",
+                  "offset": 12
+                },
+                {
+                  "val": "status_999",
+                  "offset": 41
+                }
+              ],
+              "location": "SharedSteps.fillFieldWithValue(String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8201995700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "user want to register a new process without required fields",
+        "description": "",
+        "id": "create-a-new-process;user-want-to-register-a-new-process-without-required-fields;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1600802800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 54857500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "fill field \"processo_vara\" with value \"vara_789\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_vara",
+                  "offset": 12
+                },
+                {
+                  "val": "vara_789",
+                  "offset": 39
+                }
+              ],
+              "location": "SharedSteps.fillFieldWithValue(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43136200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "fill field \"processo_numero_processo\" with value \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_numero_processo",
+                  "offset": 12
+                },
+                {
+                  "val": "",
+                  "offset": 50
+                }
+              ],
+              "location": "SharedSteps.fillFieldWithValue(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51643000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "fill field \"processo_natureza\" with value \"natureza_789\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_natureza",
+                  "offset": 12
+                },
+                {
+                  "val": "natureza_789",
+                  "offset": 43
+                }
+              ],
+              "location": "SharedSteps.fillFieldWithValue(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45309000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "fill field \"processo_partes\" with value \"parte_789\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_partes",
+                  "offset": 12
+                },
+                {
+                  "val": "parte_789",
+                  "offset": 41
+                }
+              ],
+              "location": "SharedSteps.fillFieldWithValue(String,String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 361532600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user click in button \"btn-save\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "btn-save",
+                  "offset": 22
+                }
+              ],
+              "location": "SharedSteps.userClickInButton(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32739500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user should see the alert  \"Numero processo não pode ser deixado em branco\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Numero processo não pode ser deixado em branco",
+                  "offset": 28
+                }
+              ],
+              "location": "NewProcessStep.userShouldSeeTheAlert(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@malta"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3886816800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should be in home page",
+            "match": {
+              "location": "NewProcessStep.userShouldBeOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 361547900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click in button \"btn-novo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "btn-novo",
+                  "offset": 22
+                }
+              ],
+              "location": "SharedSteps.userClickInButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 308832000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "fill select field with value \"S\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "S",
+                  "offset": 30
+                }
+              ],
+              "location": "NewProcessStep.fillSelectFieldWithValue(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 248465000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "fill option field with value \"S\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "S",
+                  "offset": 30
+                }
+              ],
+              "location": "NewProcessStep.fillOptionFieldWithValue(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65170500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "fill field \"processo_data_entrada\" with value \"04/07/2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_data_entrada",
+                  "offset": 12
+                },
+                {
+                  "val": "04/07/2020",
+                  "offset": 47
+                }
+              ],
+              "location": "SharedSteps.fillFieldWithValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 54649800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "fill field \"processo_status\" with value \"status_999\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_status",
+                  "offset": 12
+                },
+                {
+                  "val": "status_999",
+                  "offset": 41
+                }
+              ],
+              "location": "SharedSteps.fillFieldWithValue(String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3764905100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "user want to register a new process without required fields",
+        "description": "",
+        "id": "create-a-new-process;user-want-to-register-a-new-process-without-required-fields;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1436187500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 39970000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "fill field \"processo_vara\" with value \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_vara",
+                  "offset": 12
+                },
+                {
+                  "val": "",
+                  "offset": 39
+                }
+              ],
+              "location": "SharedSteps.fillFieldWithValue(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49695600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "fill field \"processo_numero_processo\" with value \"numero_79\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_numero_processo",
+                  "offset": 12
+                },
+                {
+                  "val": "numero_79",
+                  "offset": 50
+                }
+              ],
+              "location": "SharedSteps.fillFieldWithValue(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47508600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "fill field \"processo_natureza\" with value \"natureza_789\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_natureza",
+                  "offset": 12
+                },
+                {
+                  "val": "natureza_789",
+                  "offset": 43
+                }
+              ],
+              "location": "SharedSteps.fillFieldWithValue(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45414000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "fill field \"processo_partes\" with value \"parte_789\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_partes",
+                  "offset": 12
+                },
+                {
+                  "val": "parte_789",
+                  "offset": 41
+                }
+              ],
+              "location": "SharedSteps.fillFieldWithValue(String,String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 370553200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user click in button \"btn-save\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "btn-save",
+                  "offset": 22
+                }
+              ],
+              "location": "SharedSteps.userClickInButton(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33772000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user should see the alert  \"Vara não pode ser deixado em branco\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Vara não pode ser deixado em branco",
+                  "offset": 28
+                }
+              ],
+              "location": "NewProcessStep.userShouldSeeTheAlert(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@malta"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2943362400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should be in home page",
+            "match": {
+              "location": "NewProcessStep.userShouldBeOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 337379700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click in button \"btn-novo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "btn-novo",
+                  "offset": 22
+                }
+              ],
+              "location": "SharedSteps.userClickInButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 301406100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "fill select field with value \"S\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "S",
+                  "offset": 30
+                }
+              ],
+              "location": "NewProcessStep.fillSelectFieldWithValue(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 250147000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "fill option field with value \"S\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "S",
+                  "offset": 30
+                }
+              ],
+              "location": "NewProcessStep.fillOptionFieldWithValue(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60993100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "fill field \"processo_data_entrada\" with value \"04/07/2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_data_entrada",
+                  "offset": 12
+                },
+                {
+                  "val": "04/07/2020",
+                  "offset": 47
+                }
+              ],
+              "location": "SharedSteps.fillFieldWithValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62039100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "fill field \"processo_status\" with value \"status_999\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_status",
+                  "offset": 12
+                },
+                {
+                  "val": "status_999",
+                  "offset": 41
+                }
+              ],
+              "location": "SharedSteps.fillFieldWithValue(String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4264260500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "user want to register a new process without required fields",
+        "description": "",
+        "id": "create-a-new-process;user-want-to-register-a-new-process-without-required-fields;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1448511800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 57180500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "fill field \"processo_vara\" with value \"vara_789\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_vara",
+                  "offset": 12
+                },
+                {
+                  "val": "vara_789",
+                  "offset": 39
+                }
+              ],
+              "location": "SharedSteps.fillFieldWithValue(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53587500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "fill field \"processo_numero_processo\" with value \"numero_79\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_numero_processo",
+                  "offset": 12
+                },
+                {
+                  "val": "numero_79",
+                  "offset": 50
+                }
+              ],
+              "location": "SharedSteps.fillFieldWithValue(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51939400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "fill field \"processo_natureza\" with value \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_natureza",
+                  "offset": 12
+                },
+                {
+                  "val": "",
+                  "offset": 43
+                }
+              ],
+              "location": "SharedSteps.fillFieldWithValue(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46983900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "fill field \"processo_partes\" with value \"parte_789\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_partes",
+                  "offset": 12
+                },
+                {
+                  "val": "parte_789",
+                  "offset": 41
+                }
+              ],
+              "location": "SharedSteps.fillFieldWithValue(String,String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 374563700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user click in button \"btn-save\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "btn-save",
+                  "offset": 22
+                }
+              ],
+              "location": "SharedSteps.userClickInButton(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 37206600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user should see the alert  \"Natureza não pode ser deixado em branco\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Natureza não pode ser deixado em branco",
+                  "offset": 28
+                }
+              ],
+              "location": "NewProcessStep.userShouldSeeTheAlert(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@malta"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4109697500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should be in home page",
+            "match": {
+              "location": "NewProcessStep.userShouldBeOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 344163200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click in button \"btn-novo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "btn-novo",
+                  "offset": 22
+                }
+              ],
+              "location": "SharedSteps.userClickInButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 320040800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "fill select field with value \"S\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "S",
+                  "offset": 30
+                }
+              ],
+              "location": "NewProcessStep.fillSelectFieldWithValue(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 249415400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "fill option field with value \"S\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "S",
+                  "offset": 30
+                }
+              ],
+              "location": "NewProcessStep.fillOptionFieldWithValue(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58584800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "fill field \"processo_data_entrada\" with value \"04/07/2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_data_entrada",
+                  "offset": 12
+                },
+                {
+                  "val": "04/07/2020",
+                  "offset": 47
+                }
+              ],
+              "location": "SharedSteps.fillFieldWithValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 70499600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "fill field \"processo_status\" with value \"status_999\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_status",
+                  "offset": 12
+                },
+                {
+                  "val": "status_999",
+                  "offset": 41
+                }
+              ],
+              "location": "SharedSteps.fillFieldWithValue(String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5261462800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "user want to register a new process",
+        "description": "",
+        "id": "create-a-new-process;user-want-to-register-a-new-process",
+        "after": [
+          {
+            "result": {
+              "duration": 1341001800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 51482200,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "fill field \"processo_vara\" with value \"vara_789\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_vara",
+                  "offset": 12
+                },
+                {
+                  "val": "vara_789",
+                  "offset": 39
+                }
+              ],
+              "location": "SharedSteps.fillFieldWithValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50253800,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "fill field \"processo_numero_processo\" with value \"processo_789\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_numero_processo",
+                  "offset": 12
+                },
+                {
+                  "val": "processo_789",
+                  "offset": 50
+                }
+              ],
+              "location": "SharedSteps.fillFieldWithValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61174100,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "fill field \"processo_natureza\" with value \"natureza_789\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_natureza",
+                  "offset": 12
+                },
+                {
+                  "val": "natureza_789",
+                  "offset": 43
+                }
+              ],
+              "location": "SharedSteps.fillFieldWithValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61911900,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "fill field \"processo_partes\" with value \"parte_789\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_partes",
+                  "offset": 12
+                },
+                {
+                  "val": "parte_789",
+                  "offset": 41
+                }
+              ],
+              "location": "SharedSteps.fillFieldWithValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 696410800,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user click in button \"btn-save\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "btn-save",
+                  "offset": 22
+                }
+              ],
+              "location": "SharedSteps.userClickInButton(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 71846000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user should see the message \"Processo foi criado com sucesso.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Processo foi criado com sucesso.",
+                  "offset": 29
+                }
+              ],
+              "location": "DetailProcessStep.userShouldSeeTheMessage(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Create a new process",
+    "description": "",
+    "id": "create-a-new-process",
+    "keyword": "Feature",
+    "uri": "CreateNewProcess.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@malta"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4083974300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "user must delete a process",
+        "description": "",
+        "id": "delete-s-specific-process;user-must-delete-a-process",
+        "after": [
+          {
+            "result": {
+              "duration": 1421967200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3821732400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should be in home page",
+            "match": {
+              "location": "NewProcessStep.userShouldBeOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 92358300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click in first delete button",
+            "match": {
+              "location": "DeleteProcessStep.userClickInFirstDeleteButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 38845600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user answer yes in the confirm box",
+            "match": {
+              "location": "DeleteProcessStep.userAnswerYesInTheConfirmBox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "home page should reload",
+            "match": {
+              "location": "DeleteProcessStep.homePageShouldReload()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Delete s specific process",
+    "description": "",
+    "id": "delete-s-specific-process",
+    "keyword": "Feature",
+    "uri": "DeleteProcess.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@malta"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3195766200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should be in home page",
+            "match": {
+              "location": "NewProcessStep.userShouldBeOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 726645100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user are in the home page",
+            "match": {
+              "location": "DetailProcessStep.userAreInTheHomePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 331652900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click in button \"btn-show_1795\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "btn-show_1795",
+                  "offset": 22
+                }
+              ],
+              "location": "SharedSteps.userClickInButton(String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4321941300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "user want to see a specific process",
+        "description": "",
+        "id": "edit-process-data;user-want-to-see-a-specific-process",
+        "after": [
+          {
+            "result": {
+              "duration": 1431096200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 283770200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click in edit button",
+            "match": {
+              "location": "EditProcessStep.userClickInEditButton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 90825100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "fill field \"processo_observacao\" with value \"value updated by automated teste\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_observacao",
+                  "offset": 12
+                },
+                {
+                  "val": "value updated by automated teste",
+                  "offset": 45
+                }
+              ],
+              "location": "SharedSteps.fillFieldWithValue(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 540519900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user click in button \"btn-save\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "btn-save",
+                  "offset": 22
+                }
+              ],
+              "location": "SharedSteps.userClickInButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38641700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should see the message \"Processo atualizado com sucesso.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Processo atualizado com sucesso.",
+                  "offset": 29
+                }
+              ],
+              "location": "DetailProcessStep.userShouldSeeTheMessage(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Edit process data",
+    "description": "",
+    "id": "edit-process-data",
+    "keyword": "Feature",
+    "uri": "EditProcess.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@malta"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2976424100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should be in home page",
+            "match": {
+              "location": "NewProcessStep.userShouldBeOnHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4846019400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "user want to see a specific process",
+        "description": "",
+        "id": "view-detailed-info-about-a-process;user-want-to-see-a-specific-process",
+        "after": [
+          {
+            "result": {
+              "duration": 1535956600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 847603800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user are in the home page",
+            "match": {
+              "location": "DetailProcessStep.userAreInTheHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 372629200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click in button \"btn-show_1795\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "btn-show_1795",
+                  "offset": 22
+                }
+              ],
+              "location": "SharedSteps.userClickInButton(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 42594900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should see the \"span#codigo\" equal \"1795\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "span#codigo",
+                  "offset": 21
+                },
+                {
+                  "val": "1795",
+                  "offset": 41
+                }
+              ],
+              "location": "DetailProcessStep.userShouldSeeTheEqual(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "View detailed info about a process",
+    "description": "",
+    "id": "view-detailed-info-about-a-process",
+    "keyword": "Feature",
+    "uri": "ViewDetailProcess.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@malta"
+      }
+    ]
+  }
+]

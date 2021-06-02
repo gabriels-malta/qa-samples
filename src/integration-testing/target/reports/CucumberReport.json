@@ -1,0 +1,1922 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User already have access to http://agapito-server.herokuapp.com",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2160000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "User want to create a new process",
+        "description": "",
+        "id": "create-a-new-process;user-want-to-create-a-new-process",
+        "after": [
+          {
+            "result": {
+              "duration": 59600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 86391600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User already in new process page",
+            "match": {
+              "location": "GeneralSteps.userAlreadyInNewProcessPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1818100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User fill field vara with value \"789\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vara",
+                  "offset": 16
+                },
+                {
+                  "val": "789",
+                  "offset": 33
+                }
+              ],
+              "location": "GeneralSteps.userFillFieldWithValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User fill field numero_processo with value \"789\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "numero_processo",
+                  "offset": 16
+                },
+                {
+                  "val": "789",
+                  "offset": 44
+                }
+              ],
+              "location": "GeneralSteps.userFillFieldWithValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User fill field natureza with value \"789\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "natureza",
+                  "offset": 16
+                },
+                {
+                  "val": "789",
+                  "offset": 37
+                }
+              ],
+              "location": "GeneralSteps.userFillFieldWithValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User fill field partes with value \"789\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "partes",
+                  "offset": 16
+                },
+                {
+                  "val": "789",
+                  "offset": 35
+                }
+              ],
+              "location": "GeneralSteps.userFillFieldWithValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User fill field urgente with value \"N\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "urgente",
+                  "offset": 16
+                },
+                {
+                  "val": "N",
+                  "offset": 36
+                }
+              ],
+              "location": "GeneralSteps.userFillFieldWithValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User fill field arbitramento with value \"N\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "arbitramento",
+                  "offset": 16
+                },
+                {
+                  "val": "N",
+                  "offset": 41
+                }
+              ],
+              "location": "GeneralSteps.userFillFieldWithValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User fill field assistencia_social with value \"789\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "assistencia_social",
+                  "offset": 16
+                },
+                {
+                  "val": "789",
+                  "offset": 47
+                }
+              ],
+              "location": "GeneralSteps.userFillFieldWithValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User fill field data_entrada with value \"06-06-2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "data_entrada",
+                  "offset": 16
+                },
+                {
+                  "val": "06-06-2020",
+                  "offset": 41
+                }
+              ],
+              "location": "GeneralSteps.userFillFieldWithValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User fill field status with value \"789\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "status",
+                  "offset": 16
+                },
+                {
+                  "val": "789",
+                  "offset": 35
+                }
+              ],
+              "location": "GeneralSteps.userFillFieldWithValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "METHOD: [ POST (Request) ]",
+              "Endpoint: [ http://agapito-server.herokuapp.com/processos/ ]",
+              "Headers: [ Accept\u003dapplication/json, application/javascript, text/javascript\nContent-Type\u003dapplication/json; charset\u003dUTF-8 ]",
+              "Body - Request: [ {arbitramento\u003dN, assistencia_social\u003d789, data_entrada\u003d06-06-2020, natureza\u003d789, numero_processo\u003d789, partes\u003d789, status\u003d789, urgente\u003dN, vara\u003d789} ]",
+              "------------------------------------",
+              "METHOD: [ POST (Response) ]",
+              "Status Code: [ 201 ]",
+              "Response: [ {\"id\":1240,\"vara\":\"789\",\"numero_processo\":\"789\",\"natureza\":\"789\",\"partes\":\"789\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":null,\"data_entrada\":\"2020-06-06\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"789\",\"observacao\":null,\"created_at\":\"2020-06-13T20:41:27.379Z\",\"updated_at\":\"2020-06-13T20:41:27.379Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1240.json\"} ]",
+              ""
+            ],
+            "result": {
+              "duration": 2886853400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User click on save button",
+            "match": {
+              "location": "CreateSteps.userClickOnSaveButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5141900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User should see status code 201",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 28
+                }
+              ],
+              "location": "GeneralSteps.userShouldSeeStatusCode(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User already have access to http://agapito-server.herokuapp.com",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 30100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "User want check updated value",
+        "description": "",
+        "id": "create-a-new-process;user-want-check-updated-value",
+        "after": [
+          {
+            "result": {
+              "duration": 8800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 56400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User already has the process id previously created",
+            "match": {
+              "location": "UpdateSteps.userAlreadyHasTheProcessIdPreviouslyCreated()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "output": [
+              "METHOD: [ GET (Request) ]",
+              "Endpoint: [ http://agapito-server.herokuapp.com/processos/1240 ]",
+              "Headers: [ Accept\u003dapplication/json, application/javascript, text/javascript\nContent-Type\u003dapplication/json; charset\u003dUTF-8 ]",
+              "Body - Request: [  ]",
+              "------------------------------------",
+              "METHOD: [ GET (Response) ]",
+              "Status Code: [ 200 ]",
+              "Response: [ {\"id\":1240,\"vara\":\"789\",\"numero_processo\":\"789\",\"natureza\":\"789\",\"partes\":\"789\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":null,\"data_entrada\":\"2020-06-06\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"789\",\"observacao\":null,\"created_at\":\"2020-06-13T20:41:27.379Z\",\"updated_at\":\"2020-06-13T20:41:27.379Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1240.json\"} ]",
+              ""
+            ],
+            "result": {
+              "duration": 356668900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User click on search button",
+            "match": {
+              "location": "GetSteps.userClickOnSearchButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 94900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User should see status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 28
+                }
+              ],
+              "location": "GeneralSteps.userShouldSeeStatusCode(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Create a new process",
+    "description": "",
+    "id": "create-a-new-process",
+    "keyword": "Feature",
+    "uri": "CreateProcess.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@processTest"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User already have access to http://agapito-server.herokuapp.com",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 23100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "User must create a new process to delete later",
+        "description": "",
+        "id": "create-a-new-process;user-must-create-a-new-process-to-delete-later",
+        "after": [
+          {
+            "result": {
+              "duration": 11500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User already in new process page",
+            "match": {
+              "location": "GeneralSteps.userAlreadyInNewProcessPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 48500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User fill field vara with value \"vara:999\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vara",
+                  "offset": 16
+                },
+                {
+                  "val": "vara:999",
+                  "offset": 33
+                }
+              ],
+              "location": "GeneralSteps.userFillFieldWithValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User fill field numero_processo with value \"numero_processo:999\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "numero_processo",
+                  "offset": 16
+                },
+                {
+                  "val": "numero_processo:999",
+                  "offset": 44
+                }
+              ],
+              "location": "GeneralSteps.userFillFieldWithValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User fill field natureza with value \"natureza:999\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "natureza",
+                  "offset": 16
+                },
+                {
+                  "val": "natureza:999",
+                  "offset": 37
+                }
+              ],
+              "location": "GeneralSteps.userFillFieldWithValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 41200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User fill field partes with value \"partes:999\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "partes",
+                  "offset": 16
+                },
+                {
+                  "val": "partes:999",
+                  "offset": 35
+                }
+              ],
+              "location": "GeneralSteps.userFillFieldWithValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User fill field urgente with value \"N\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "urgente",
+                  "offset": 16
+                },
+                {
+                  "val": "N",
+                  "offset": 36
+                }
+              ],
+              "location": "GeneralSteps.userFillFieldWithValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User fill field arbitramento with value \"N\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "arbitramento",
+                  "offset": 16
+                },
+                {
+                  "val": "N",
+                  "offset": 41
+                }
+              ],
+              "location": "GeneralSteps.userFillFieldWithValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 200800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User fill field assistencia_social with value \"assistencia_social:999\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "assistencia_social",
+                  "offset": 16
+                },
+                {
+                  "val": "assistencia_social:999",
+                  "offset": 47
+                }
+              ],
+              "location": "GeneralSteps.userFillFieldWithValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User fill field data_entrada with value \"06-06-2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "data_entrada",
+                  "offset": 16
+                },
+                {
+                  "val": "06-06-2020",
+                  "offset": 41
+                }
+              ],
+              "location": "GeneralSteps.userFillFieldWithValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User fill field status with value \"status:999\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "status",
+                  "offset": 16
+                },
+                {
+                  "val": "status:999",
+                  "offset": 35
+                }
+              ],
+              "location": "GeneralSteps.userFillFieldWithValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "METHOD: [ POST (Request) ]",
+              "Endpoint: [ http://agapito-server.herokuapp.com/processos/ ]",
+              "Headers: [ Accept\u003dapplication/json, application/javascript, text/javascript\nContent-Type\u003dapplication/json; charset\u003dUTF-8 ]",
+              "Body - Request: [ {arbitramento\u003dN, assistencia_social\u003dassistencia_social:999, data_entrada\u003d06-06-2020, natureza\u003dnatureza:999, numero_processo\u003dnumero_processo:999, partes\u003dpartes:999, status\u003dstatus:999, urgente\u003dN, vara\u003dvara:999} ]",
+              "------------------------------------",
+              "METHOD: [ POST (Response) ]",
+              "Status Code: [ 201 ]",
+              "Response: [ {\"id\":1241,\"vara\":\"vara:999\",\"numero_processo\":\"numero_processo:999\",\"natureza\":\"natureza:999\",\"partes\":\"partes:999\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":null,\"data_entrada\":\"2020-06-06\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"status:999\",\"observacao\":null,\"created_at\":\"2020-06-13T20:41:28.725Z\",\"updated_at\":\"2020-06-13T20:41:28.725Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1241.json\"} ]",
+              ""
+            ],
+            "result": {
+              "duration": 449853400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User click on save button",
+            "match": {
+              "location": "CreateSteps.userClickOnSaveButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 134900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User should see status code 201",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 28
+                }
+              ],
+              "location": "GeneralSteps.userShouldSeeStatusCode(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User already have access to http://agapito-server.herokuapp.com",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 30100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "User want delete the previously created process",
+        "description": "",
+        "id": "create-a-new-process;user-want-delete-the-previously-created-process",
+        "after": [
+          {
+            "result": {
+              "duration": 5800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 32600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User already has the process id previously created",
+            "match": {
+              "location": "UpdateSteps.userAlreadyHasTheProcessIdPreviouslyCreated()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "output": [
+              "METHOD: [ DELETE (Request) ]",
+              "Endpoint: [ http://agapito-server.herokuapp.com/processos/1241 ]",
+              "Headers: [ Accept\u003dapplication/json, application/javascript, text/javascript\nContent-Type\u003dapplication/json; charset\u003dUTF-8 ]",
+              "Body - Request: [  ]",
+              "------------------------------------",
+              "METHOD: [ DELETE (Response) ]",
+              "Status Code: [ 204 ]",
+              "Response: [  ]",
+              ""
+            ],
+            "result": {
+              "duration": 354644900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User click on button delete",
+            "match": {
+              "location": "DeleteSteps.userClickOnButtonDelete()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User should see status code 204",
+            "match": {
+              "arguments": [
+                {
+                  "val": "204",
+                  "offset": 28
+                }
+              ],
+              "location": "GeneralSteps.userShouldSeeStatusCode(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User already have access to http://agapito-server.herokuapp.com",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 14400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "User want check if the entity was deleted",
+        "description": "",
+        "id": "create-a-new-process;user-want-check-if-the-entity-was-deleted",
+        "after": [
+          {
+            "result": {
+              "duration": 10500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 27900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User already has the process id previously created",
+            "match": {
+              "location": "UpdateSteps.userAlreadyHasTheProcessIdPreviouslyCreated()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "output": [
+              "METHOD: [ GET (Request) ]",
+              "Endpoint: [ http://agapito-server.herokuapp.com/processos/1241 ]",
+              "Headers: [ Accept\u003dapplication/json, application/javascript, text/javascript\nContent-Type\u003dapplication/json; charset\u003dUTF-8 ]",
+              "Body - Request: [  ]",
+              "------------------------------------",
+              "METHOD: [ GET (Response) ]",
+              "Status Code: [ 404 ]",
+              "Response: [ {\"status\":404,\"error\":\"Not Found\"} ]",
+              ""
+            ],
+            "result": {
+              "duration": 325021000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User click on search button",
+            "match": {
+              "location": "GetSteps.userClickOnSearchButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 128100,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User should see status code 404",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 28
+                }
+              ],
+              "location": "GeneralSteps.userShouldSeeStatusCode(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Create a new process",
+    "description": "",
+    "id": "create-a-new-process",
+    "keyword": "Feature",
+    "uri": "DeleteProcess.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@processTest"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User already have access to http://agapito-server.herokuapp.com",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 20400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "User want to list all process",
+        "description": "",
+        "id": "get-all-process;user-want-to-list-all-process",
+        "after": [
+          {
+            "result": {
+              "duration": 9200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "output": [
+              "METHOD: [ GET (Request) ]",
+              "Endpoint: [ http://agapito-server.herokuapp.com/processos/ ]",
+              "Headers: [ Accept\u003dapplication/json, application/javascript, text/javascript\nContent-Type\u003dapplication/json; charset\u003dUTF-8 ]",
+              "Body - Request: [  ]",
+              "------------------------------------",
+              "METHOD: [ GET (Response) ]",
+              "Status Code: [ 200 ]",
+              "Response: [ [{\"id\":1013,\"vara\":\"Nova Vara\",\"numero_processo\":\"11223\",\"natureza\":\"3\",\"partes\":\"João X Mária\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":\"Joana Dark\",\"data_entrada\":\"2019-12-25\",\"data_saida\":\"2020-01-01\",\"data_agendamento\":\"2019-05-01\",\"status\":\"Complicado\",\"observacao\":\"Foi atualizada com sucesso!!!\",\"created_at\":\"2020-06-06T20:10:41.190Z\",\"updated_at\":\"2020-06-06T20:10:42.923Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1013.json\"},{\"id\":1027,\"vara\":\"3\",\"numero_processo\":\"4\",\"natureza\":\"Guarda\",\"partes\":\"Jose x Maria\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Gisele\",\"data_entrada\":\"2020-10-20\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Aguardando\",\"observacao\":\"\",\"created_at\":\"2020-06-07T02:06:59.932Z\",\"updated_at\":\"2020-06-07T02:06:59.932Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1027.json\"},{\"id\":827,\"vara\":\"1132\",\"numero_processo\":\"1132\",\"natureza\":\"Divida de ração\",\"partes\":\"Gato x Cachorro\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Mãe\",\"data_entrada\":\"2020-05-20\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Agendado com sucesso\",\"created_at\":\"2020-05-31T19:31:04.752Z\",\"updated_at\":\"2020-05-31T19:37:42.582Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/827.json\"},{\"id\":829,\"vara\":\"3\",\"numero_processo\":\"123123123\",\"natureza\":\"Guarda\",\"partes\":\"José x Maria\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Gisele 123\",\"data_entrada\":\"2020-10-15\",\"data_saida\":\"2020-11-25\",\"data_agendamento\":\"2020-10-16\",\"status\":\"Aguardando\",\"observacao\":\"teste\",\"created_at\":\"2020-05-31T19:59:54.971Z\",\"updated_at\":\"2020-05-31T19:59:54.971Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/829.json\"},{\"id\":897,\"vara\":\"3\",\"numero_processo\":\"123123123\",\"natureza\":\"Guarda\",\"partes\":\"José x Maria\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Gisele 2\",\"data_entrada\":\"2020-10-15\",\"data_saida\":\"2020-11-25\",\"data_agendamento\":\"2020-10-16\",\"status\":\"Aguardando\",\"observacao\":\"teste\",\"created_at\":\"2020-06-02T00:01:47.093Z\",\"updated_at\":\"2020-06-02T00:01:47.093Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/897.json\"},{\"id\":828,\"vara\":\"3\",\"numero_processo\":\"123123123\",\"natureza\":\"Guarda\",\"partes\":\"José x Maria\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Gisele 2\",\"data_entrada\":\"2020-10-15\",\"data_saida\":\"2020-11-25\",\"data_agendamento\":\"2020-10-16\",\"status\":\"Aguardando\",\"observacao\":\"Nova teste\",\"created_at\":\"2020-05-31T19:36:20.140Z\",\"updated_at\":\"2020-05-31T20:04:42.942Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/828.json\"},{\"id\":831,\"vara\":\"3\",\"numero_processo\":\"123123123\",\"natureza\":\"Guarda\",\"partes\":\"José x Maria\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria 123\",\"data_entrada\":\"2020-10-15\",\"data_saida\":\"2020-11-25\",\"data_agendamento\":\"2020-10-16\",\"status\":\"Aguardando\",\"observacao\":\"teste\",\"created_at\":\"2020-05-31T20:10:14.454Z\",\"updated_at\":\"2020-05-31T20:10:14.454Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/831.json\"},{\"id\":832,\"vara\":\"3\",\"numero_processo\":\"123123123\",\"natureza\":\"Guarda\",\"partes\":\"José x Maria\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria 123\",\"data_entrada\":\"2020-10-15\",\"data_saida\":\"2020-11-25\",\"data_agendamento\":\"2020-10-16\",\"status\":\"Aguardando\",\"observacao\":\"Nova teste\",\"created_at\":\"2020-05-31T20:13:06.361Z\",\"updated_at\":\"2020-05-31T20:13:33.126Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/832.json\"},{\"id\":898,\"vara\":\"3\",\"numero_processo\":\"123123123\",\"natureza\":\"Guarda\",\"partes\":\"José x Maria\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Gisele 2\",\"data_entrada\":\"2020-10-15\",\"data_saida\":\"2020-11-25\",\"data_agendamento\":\"2020-10-16\",\"status\":\"Aguardando\",\"observacao\":\"teste\",\"created_at\":\"2020-06-02T00:05:36.759Z\",\"updated_at\":\"2020-06-02T00:05:36.759Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/898.json\"},{\"id\":834,\"vara\":\"3\",\"numero_processo\":\"123123123\",\"natureza\":\"Guarda\",\"partes\":\"JosÃ© x Maria\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Gisele 2\",\"data_entrada\":\"2020-10-15\",\"data_saida\":\"2020-11-25\",\"data_agendamento\":\"2020-10-16\",\"status\":\"Aguardando\",\"observacao\":\"teste\",\"created_at\":\"2020-05-31T21:46:52.403Z\",\"updated_at\":\"2020-05-31T21:46:52.403Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/834.json\"},{\"id\":899,\"vara\":\"3\",\"numero_processo\":\"123123123\",\"natureza\":\"Guarda\",\"partes\":\"José x Maria\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Gisele 2\",\"data_entrada\":\"2020-10-15\",\"data_saida\":\"2020-11-25\",\"data_agendamento\":\"2020-10-16\",\"status\":\"Aguardando\",\"observacao\":\"teste\",\"created_at\":\"2020-06-02T00:05:37.394Z\",\"updated_at\":\"2020-06-02T00:05:37.394Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/899.json\"},{\"id\":837,\"vara\":\"3\",\"numero_processo\":\"123123123\",\"natureza\":\"Guarda\",\"partes\":\"JosÃ© x Maria\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Gisele 2\",\"data_entrada\":\"2020-10-15\",\"data_saida\":\"2020-11-25\",\"data_agendamento\":\"2020-10-16\",\"status\":\"Aguardando\",\"observacao\":\"teste\",\"created_at\":\"2020-05-31T21:49:54.537Z\",\"updated_at\":\"2020-05-31T21:49:54.537Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/837.json\"},{\"id\":900,\"vara\":\"3\",\"numero_processo\":\"123123123\",\"natureza\":\"Guarda\",\"partes\":\"José x Maria\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Gisele 2\",\"data_entrada\":\"2020-10-15\",\"data_saida\":\"2020-11-25\",\"data_agendamento\":\"2020-10-16\",\"status\":\"Aguardando\",\"observacao\":\"teste\",\"created_at\":\"2020-06-02T00:06:05.970Z\",\"updated_at\":\"2020-06-02T00:06:05.970Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/900.json\"},{\"id\":901,\"vara\":\"3\",\"numero_processo\":\"123123123\",\"natureza\":\"Guarda\",\"partes\":\"José x Maria\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Gisele 2\",\"data_entrada\":\"2020-10-15\",\"data_saida\":\"2020-11-25\",\"data_agendamento\":\"2020-10-16\",\"status\":\"Aguardando\",\"observacao\":\"teste\",\"created_at\":\"2020-06-02T00:06:27.224Z\",\"updated_at\":\"2020-06-02T00:06:27.224Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/901.json\"},{\"id\":902,\"vara\":\"3\",\"numero_processo\":\"123123123\",\"natureza\":\"Guarda\",\"partes\":\"José x Maria\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Gisele 2\",\"data_entrada\":\"2020-10-15\",\"data_saida\":\"2020-11-25\",\"data_agendamento\":\"2020-10-16\",\"status\":\"Aguardando\",\"observacao\":\"teste\",\"created_at\":\"2020-06-02T00:07:29.027Z\",\"updated_at\":\"2020-06-02T00:07:29.027Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/902.json\"},{\"id\":903,\"vara\":\"3\",\"numero_processo\":\"123123123\",\"natureza\":\"Guarda\",\"partes\":\"José x Maria\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Gisele 2\",\"data_entrada\":\"2020-10-15\",\"data_saida\":\"2020-11-25\",\"data_agendamento\":\"2020-10-16\",\"status\":\"Aguardando\",\"observacao\":\"teste\",\"created_at\":\"2020-06-02T00:08:46.533Z\",\"updated_at\":\"2020-06-02T00:08:46.533Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/903.json\"},{\"id\":904,\"vara\":\"3\",\"numero_processo\":\"123123123\",\"natureza\":\"Guarda\",\"partes\":\"José x Maria\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Gisele 2\",\"data_entrada\":\"2020-10-15\",\"data_saida\":\"2020-11-25\",\"data_agendamento\":\"2020-10-16\",\"status\":\"Aguardando\",\"observacao\":\"teste\",\"created_at\":\"2020-06-02T00:08:47.232Z\",\"updated_at\":\"2020-06-02T00:08:47.232Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/904.json\"},{\"id\":905,\"vara\":\"3\",\"numero_processo\":\"123123123\",\"natureza\":\"Guarda\",\"partes\":\"José x Maria\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria 123\",\"data_entrada\":\"2020-10-15\",\"data_saida\":\"2020-11-25\",\"data_agendamento\":\"2020-10-16\",\"status\":\"Aguardando\",\"observacao\":\"Nova teste\",\"created_at\":\"2020-06-02T00:08:59.803Z\",\"updated_at\":\"2020-06-02T00:09:00.456Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/905.json\"},{\"id\":906,\"vara\":\"3\",\"numero_processo\":\"123123123\",\"natureza\":\"Guarda\",\"partes\":\"José x Maria\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Gisele 2\",\"data_entrada\":\"2020-10-15\",\"data_saida\":\"2020-11-25\",\"data_agendamento\":\"2020-10-16\",\"status\":\"Aguardando\",\"observacao\":\"teste\",\"created_at\":\"2020-06-02T00:11:38.244Z\",\"updated_at\":\"2020-06-02T00:11:38.244Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/906.json\"},{\"id\":907,\"vara\":\"3\",\"numero_processo\":\"123123123\",\"natureza\":\"Guarda\",\"partes\":\"José x Maria\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Gisele 2\",\"data_entrada\":\"2020-10-15\",\"data_saida\":\"2020-11-25\",\"data_agendamento\":\"2020-10-16\",\"status\":\"Aguardando\",\"observacao\":\"teste\",\"created_at\":\"2020-06-02T00:11:38.917Z\",\"updated_at\":\"2020-06-02T00:11:38.917Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/907.json\"},{\"id\":908,\"vara\":\"3\",\"numero_processo\":\"123123123\",\"natureza\":\"Guarda\",\"partes\":\"José x Maria\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Gisele 2\",\"data_entrada\":\"2020-10-15\",\"data_saida\":\"2020-11-25\",\"data_agendamento\":\"2020-10-16\",\"status\":\"Aguardando\",\"observacao\":\"teste\",\"created_at\":\"2020-06-02T00:27:38.238Z\",\"updated_at\":\"2020-06-02T00:27:38.238Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/908.json\"},{\"id\":909,\"vara\":\"3\",\"numero_processo\":\"123123123\",\"natureza\":\"Guarda\",\"partes\":\"José x Maria\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Gisele 2\",\"data_entrada\":\"2020-10-15\",\"data_saida\":\"2020-11-25\",\"data_agendamento\":\"2020-10-16\",\"status\":\"Aguardando\",\"observacao\":\"teste\",\"created_at\":\"2020-06-02T00:34:30.068Z\",\"updated_at\":\"2020-06-02T00:34:30.068Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/909.json\"},{\"id\":910,\"vara\":\"3\",\"numero_processo\":\"123123123\",\"natureza\":\"Guarda\",\"partes\":\"José x Maria\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Gisele 2\",\"data_entrada\":\"2020-10-15\",\"data_saida\":\"2020-11-25\",\"data_agendamento\":\"2020-10-16\",\"status\":\"Aguardando\",\"observacao\":\"teste\",\"created_at\":\"2020-06-02T00:34:30.721Z\",\"updated_at\":\"2020-06-02T00:34:30.721Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/910.json\"},{\"id\":911,\"vara\":\"3\",\"numero_processo\":\"123123123\",\"natureza\":\"Guarda\",\"partes\":\"José x Maria\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Gisele 2\",\"data_entrada\":\"2020-10-15\",\"data_saida\":\"2020-11-25\",\"data_agendamento\":\"2020-10-16\",\"status\":\"Aguardando\",\"observacao\":\"teste\",\"created_at\":\"2020-06-02T00:35:09.945Z\",\"updated_at\":\"2020-06-02T00:35:09.945Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/911.json\"},{\"id\":912,\"vara\":\"3\",\"numero_processo\":\"123123123\",\"natureza\":\"Guarda\",\"partes\":\"José x Maria\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Gisele 2\",\"data_entrada\":\"2020-10-15\",\"data_saida\":\"2020-11-25\",\"data_agendamento\":\"2020-10-16\",\"status\":\"Aguardando\",\"observacao\":\"teste\",\"created_at\":\"2020-06-02T00:35:10.589Z\",\"updated_at\":\"2020-06-02T00:35:10.589Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/912.json\"},{\"id\":1028,\"vara\":\"2\",\"numero_processo\":\"31313131\",\"natureza\":\"Patrimonio\",\"partes\":\"Diego x Barbara\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"John Dee\",\"data_entrada\":\"2019-12-25\",\"data_saida\":\"2020-01-01\",\"data_agendamento\":\"2019-05-01\",\"status\":\"Complicado\",\"observacao\":\"Agendamento com Sucesso!\",\"created_at\":\"2020-06-07T02:14:50.980Z\",\"updated_at\":\"2020-06-07T02:14:50.980Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1028.json\"},{\"id\":914,\"vara\":\"3\",\"numero_processo\":\"123123123\",\"natureza\":\"Guarda\",\"partes\":\"José x Maria\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria 123\",\"data_entrada\":\"2020-10-15\",\"data_saida\":\"2020-11-25\",\"data_agendamento\":\"2020-10-16\",\"status\":\"Aguardando\",\"observacao\":\"Nova teste\",\"created_at\":\"2020-06-02T00:35:12.814Z\",\"updated_at\":\"2020-06-02T00:35:13.188Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/914.json\"},{\"id\":1029,\"vara\":\"2\",\"numero_processo\":\"31313131\",\"natureza\":\"Patrimonio\",\"partes\":\"Diego x Barbara\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"John Dee\",\"data_entrada\":\"2019-12-25\",\"data_saida\":\"2020-01-01\",\"data_agendamento\":\"2019-05-01\",\"status\":\"Complicado\",\"observacao\":\"Processo PCD\",\"created_at\":\"2020-06-07T02:19:58.450Z\",\"updated_at\":\"2020-06-07T02:19:58.450Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1029.json\"},{\"id\":1051,\"vara\":\"2598\",\"numero_processo\":\"2598\",\"natureza\":\"Divida\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Agendado com sucesso\",\"created_at\":\"2020-06-07T18:08:06.372Z\",\"updated_at\":\"2020-06-07T18:08:06.372Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1051.json\"},{\"id\":1053,\"vara\":\"2598\",\"numero_processo\":\"2598\",\"natureza\":\"Divida\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Agendado com sucesso\",\"created_at\":\"2020-06-07T18:26:52.250Z\",\"updated_at\":\"2020-06-07T18:26:52.250Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1053.json\"},{\"id\":919,\"vara\":\"3\",\"numero_processo\":\"123123123\",\"natureza\":\"Guarda\",\"partes\":\"José x Maria\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria 123\",\"data_entrada\":\"2020-10-15\",\"data_saida\":\"2020-11-25\",\"data_agendamento\":\"2020-10-16\",\"status\":\"Aguardando\",\"observacao\":\"teste\",\"created_at\":\"2020-06-02T00:41:44.503Z\",\"updated_at\":\"2020-06-02T00:41:44.503Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/919.json\"},{\"id\":920,\"vara\":\"3\",\"numero_processo\":\"123123123\",\"natureza\":\"Guarda\",\"partes\":\"José x Maria\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Gisele 2\",\"data_entrada\":\"2020-10-15\",\"data_saida\":\"2020-11-25\",\"data_agendamento\":\"2020-10-16\",\"status\":\"Aguardando\",\"observacao\":\"teste\",\"created_at\":\"2020-06-02T00:43:47.029Z\",\"updated_at\":\"2020-06-02T00:43:47.029Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/920.json\"},{\"id\":921,\"vara\":\"3\",\"numero_processo\":\"123123123\",\"natureza\":\"Guarda\",\"partes\":\"José x Maria\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Gisele 2\",\"data_entrada\":\"2020-10-15\",\"data_saida\":\"2020-11-25\",\"data_agendamento\":\"2020-10-16\",\"status\":\"Aguardando\",\"observacao\":\"teste\",\"created_at\":\"2020-06-02T00:43:47.734Z\",\"updated_at\":\"2020-06-02T00:43:47.734Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/921.json\"},{\"id\":923,\"vara\":\"3\",\"numero_processo\":\"123123123\",\"natureza\":\"Guarda\",\"partes\":\"José x Maria\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria 123\",\"data_entrada\":\"2020-10-15\",\"data_saida\":\"2020-11-25\",\"data_agendamento\":\"2020-10-16\",\"status\":\"Aguardando\",\"observacao\":\"teste\",\"created_at\":\"2020-06-02T00:43:56.734Z\",\"updated_at\":\"2020-06-02T00:43:56.734Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/923.json\"},{\"id\":924,\"vara\":\"3\",\"numero_processo\":\"123123123\",\"natureza\":\"Guarda\",\"partes\":\"José x Maria\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria 123\",\"data_entrada\":\"2020-10-15\",\"data_saida\":\"2020-11-25\",\"data_agendamento\":\"2020-10-16\",\"status\":\"Aguardando\",\"observacao\":\"Nova teste\",\"created_at\":\"2020-06-02T00:45:00.162Z\",\"updated_at\":\"2020-06-02T00:45:00.855Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/924.json\"},{\"id\":925,\"vara\":\"3\",\"numero_processo\":\"123123123\",\"natureza\":\"Guarda\",\"partes\":\"José x Maria\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria 123\",\"data_entrada\":\"2020-10-15\",\"data_saida\":\"2020-11-25\",\"data_agendamento\":\"2020-10-16\",\"status\":\"Aguardando\",\"observacao\":\"Nova teste\",\"created_at\":\"2020-06-02T00:52:09.982Z\",\"updated_at\":\"2020-06-02T00:52:10.627Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/925.json\"},{\"id\":926,\"vara\":\"3\",\"numero_processo\":\"123123123\",\"natureza\":\"Guarda\",\"partes\":\"José x Maria\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria 123\",\"data_entrada\":\"2020-10-15\",\"data_saida\":\"2020-11-25\",\"data_agendamento\":\"2020-10-16\",\"status\":\"Aguardando\",\"observacao\":\"Nova teste\",\"created_at\":\"2020-06-02T00:55:31.670Z\",\"updated_at\":\"2020-06-02T00:55:32.349Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/926.json\"},{\"id\":927,\"vara\":\"3\",\"numero_processo\":\"123123123\",\"natureza\":\"Guarda\",\"partes\":\"José x Maria\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Gisele 2\",\"data_entrada\":\"2020-10-15\",\"data_saida\":\"2020-11-25\",\"data_agendamento\":\"2020-10-16\",\"status\":\"Aguardando\",\"observacao\":\"teste\",\"created_at\":\"2020-06-02T00:56:02.561Z\",\"updated_at\":\"2020-06-02T00:56:02.561Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/927.json\"},{\"id\":928,\"vara\":\"3\",\"numero_processo\":\"123123123\",\"natureza\":\"Guarda\",\"partes\":\"José x Maria\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Gisele 2\",\"data_entrada\":\"2020-10-15\",\"data_saida\":\"2020-11-25\",\"data_agendamento\":\"2020-10-16\",\"status\":\"Aguardando\",\"observacao\":\"teste\",\"created_at\":\"2020-06-02T00:56:03.245Z\",\"updated_at\":\"2020-06-02T00:56:03.245Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/928.json\"},{\"id\":930,\"vara\":\"3\",\"numero_processo\":\"123123123\",\"natureza\":\"Guarda\",\"partes\":\"José x Maria\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria 123\",\"data_entrada\":\"2020-10-15\",\"data_saida\":\"2020-11-25\",\"data_agendamento\":\"2020-10-16\",\"status\":\"Aguardando\",\"observacao\":\"teste\",\"created_at\":\"2020-06-02T00:56:11.993Z\",\"updated_at\":\"2020-06-02T00:56:11.993Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/930.json\"},{\"id\":931,\"vara\":\"3\",\"numero_processo\":\"123123123\",\"natureza\":\"Guarda\",\"partes\":\"José x Maria\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria 123\",\"data_entrada\":\"2020-10-15\",\"data_saida\":\"2020-11-25\",\"data_agendamento\":\"2020-10-16\",\"status\":\"Aguardando\",\"observacao\":\"Nova teste\",\"created_at\":\"2020-06-02T00:56:26.180Z\",\"updated_at\":\"2020-06-02T00:56:26.861Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/931.json\"},{\"id\":932,\"vara\":\"3\",\"numero_processo\":\"123123123\",\"natureza\":\"Guarda\",\"partes\":\"José x Maria\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Gisele 2\",\"data_entrada\":\"2020-10-15\",\"data_saida\":\"2020-11-25\",\"data_agendamento\":\"2020-10-16\",\"status\":\"Aguardando\",\"observacao\":\"teste\",\"created_at\":\"2020-06-02T00:59:31.372Z\",\"updated_at\":\"2020-06-02T00:59:31.372Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/932.json\"},{\"id\":933,\"vara\":\"3\",\"numero_processo\":\"123123123\",\"natureza\":\"Guarda\",\"partes\":\"José x Maria\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Gisele 2\",\"data_entrada\":\"2020-10-15\",\"data_saida\":\"2020-11-25\",\"data_agendamento\":\"2020-10-16\",\"status\":\"Aguardando\",\"observacao\":\"teste\",\"created_at\":\"2020-06-02T00:59:32.042Z\",\"updated_at\":\"2020-06-02T00:59:32.042Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/933.json\"},{\"id\":935,\"vara\":\"3\",\"numero_processo\":\"123123123\",\"natureza\":\"Guarda\",\"partes\":\"José x Maria\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria 123\",\"data_entrada\":\"2020-10-15\",\"data_saida\":\"2020-11-25\",\"data_agendamento\":\"2020-10-16\",\"status\":\"Aguardando\",\"observacao\":\"teste\",\"created_at\":\"2020-06-02T00:59:40.784Z\",\"updated_at\":\"2020-06-02T00:59:40.784Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/935.json\"},{\"id\":936,\"vara\":\"3\",\"numero_processo\":\"123123123\",\"natureza\":\"Guarda\",\"partes\":\"José x Maria\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria 123\",\"data_entrada\":\"2020-10-15\",\"data_saida\":\"2020-11-25\",\"data_agendamento\":\"2020-10-16\",\"status\":\"Aguardando\",\"observacao\":\"Nova teste\",\"created_at\":\"2020-06-02T00:59:54.703Z\",\"updated_at\":\"2020-06-02T00:59:55.385Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/936.json\"},{\"id\":937,\"vara\":\"3\",\"numero_processo\":\"123123123\",\"natureza\":\"Guarda\",\"partes\":\"José x Maria\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Gisele 2\",\"data_entrada\":\"2020-10-15\",\"data_saida\":\"2020-11-25\",\"data_agendamento\":\"2020-10-16\",\"status\":\"Aguardando\",\"observacao\":\"teste\",\"created_at\":\"2020-06-02T01:05:15.741Z\",\"updated_at\":\"2020-06-02T01:05:15.741Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/937.json\"},{\"id\":938,\"vara\":\"3\",\"numero_processo\":\"123123123\",\"natureza\":\"Guarda\",\"partes\":\"José x Maria\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Gisele 2\",\"data_entrada\":\"2020-10-15\",\"data_saida\":\"2020-11-25\",\"data_agendamento\":\"2020-10-16\",\"status\":\"Aguardando\",\"observacao\":\"teste\",\"created_at\":\"2020-06-02T01:05:16.408Z\",\"updated_at\":\"2020-06-02T01:05:16.408Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/938.json\"},{\"id\":940,\"vara\":\"3\",\"numero_processo\":\"123123123\",\"natureza\":\"Guarda\",\"partes\":\"José x Maria\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria 123\",\"data_entrada\":\"2020-10-15\",\"data_saida\":\"2020-11-25\",\"data_agendamento\":\"2020-10-16\",\"status\":\"Aguardando\",\"observacao\":\"teste\",\"created_at\":\"2020-06-02T01:05:25.192Z\",\"updated_at\":\"2020-06-02T01:05:25.192Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/940.json\"},{\"id\":941,\"vara\":\"3\",\"numero_processo\":\"123123123\",\"natureza\":\"Guarda\",\"partes\":\"José x Maria\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria 123\",\"data_entrada\":\"2020-10-15\",\"data_saida\":\"2020-11-25\",\"data_agendamento\":\"2020-10-16\",\"status\":\"Aguardando\",\"observacao\":\"Nova teste\",\"created_at\":\"2020-06-02T01:05:40.975Z\",\"updated_at\":\"2020-06-02T01:05:41.657Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/941.json\"},{\"id\":942,\"vara\":\"3\",\"numero_processo\":\"123123123\",\"natureza\":\"Guarda\",\"partes\":\"JosÃ© x Maria\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Gisele 2\",\"data_entrada\":\"2020-10-15\",\"data_saida\":\"2020-11-25\",\"data_agendamento\":\"2020-10-16\",\"status\":\"Aguardando\",\"observacao\":\"teste\",\"created_at\":\"2020-06-02T01:06:40.278Z\",\"updated_at\":\"2020-06-02T01:06:40.278Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/942.json\"},{\"id\":943,\"vara\":\"3\",\"numero_processo\":\"123123123\",\"natureza\":\"Guarda\",\"partes\":\"JosÃ© x Maria\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Gisele 2\",\"data_entrada\":\"2020-10-15\",\"data_saida\":\"2020-11-25\",\"data_agendamento\":\"2020-10-16\",\"status\":\"Aguardando\",\"observacao\":\"teste\",\"created_at\":\"2020-06-02T01:06:40.927Z\",\"updated_at\":\"2020-06-02T01:06:40.927Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/943.json\"},{\"id\":945,\"vara\":\"3\",\"numero_processo\":\"123123123\",\"natureza\":\"Guarda\",\"partes\":\"JosÃ© x Maria\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria 123\",\"data_entrada\":\"2020-10-15\",\"data_saida\":\"2020-11-25\",\"data_agendamento\":\"2020-10-16\",\"status\":\"Aguardando\",\"observacao\":\"teste\",\"created_at\":\"2020-06-02T01:06:42.243Z\",\"updated_at\":\"2020-06-02T01:06:42.243Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/945.json\"},{\"id\":946,\"vara\":\"3\",\"numero_processo\":\"123123123\",\"natureza\":\"Guarda\",\"partes\":\"JosÃ© x Maria\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria 123\",\"data_entrada\":\"2020-10-15\",\"data_saida\":\"2020-11-25\",\"data_agendamento\":\"2020-10-16\",\"status\":\"Aguardando\",\"observacao\":\"Nova teste\",\"created_at\":\"2020-06-02T01:06:43.946Z\",\"updated_at\":\"2020-06-02T01:06:44.268Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/946.json\"},{\"id\":982,\"vara\":\"1\",\"numero_processo\":\"1\",\"natureza\":\"1\",\"partes\":\"1\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":\"1\",\"data_entrada\":\"2020-01-01\",\"data_saida\":\"2020-01-01\",\"data_agendamento\":\"2020-01-01\",\"status\":\"1\",\"observacao\":\"1\",\"created_at\":\"2020-06-05T21:33:55.130Z\",\"updated_at\":\"2020-06-05T21:33:55.130Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/982.json\"},{\"id\":896,\"vara\":\"Nova Vara\",\"numero_processo\":\"123123123\",\"natureza\":\"Guarda\",\"partes\":\"José x Maria\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Gisele 2\",\"data_entrada\":\"2020-10-15\",\"data_saida\":\"2020-11-25\",\"data_agendamento\":\"2020-10-16\",\"status\":\"Aguardando\",\"observacao\":\"Foi atualizada com sucesso!!!\",\"created_at\":\"2020-06-02T00:01:46.450Z\",\"updated_at\":\"2020-06-06T18:46:27.921Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/896.json\"},{\"id\":1038,\"vara\":\"39\",\"numero_processo\":\"31313131\",\"natureza\":\"Guarda de Menor\",\"partes\":\"Diego x Barbara\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"John Dee\",\"data_entrada\":\"2019-12-25\",\"data_saida\":\"2020-01-01\",\"data_agendamento\":\"2019-05-01\",\"status\":\"Complicado\",\"observacao\":\"Verificar processo.\",\"created_at\":\"2020-06-07T03:48:49.109Z\",\"updated_at\":\"2020-06-07T03:48:49.458Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1038.json\"},{\"id\":1017,\"vara\":\"Nova Vara\",\"numero_processo\":\"11223\",\"natureza\":\"3\",\"partes\":\"João X Mária\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":\"Joana Dark\",\"data_entrada\":\"2019-12-25\",\"data_saida\":\"2020-01-01\",\"data_agendamento\":\"2019-05-01\",\"status\":\"Complicado\",\"observacao\":\"Foi atualizada com sucesso!!!\",\"created_at\":\"2020-06-06T20:53:31.208Z\",\"updated_at\":\"2020-06-06T20:53:33.850Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1017.json\"},{\"id\":1018,\"vara\":\"Nova Vara\",\"numero_processo\":\"11223\",\"natureza\":\"3\",\"partes\":\"João X Mária\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":\"Joana Dark\",\"data_entrada\":\"2019-12-25\",\"data_saida\":\"2020-01-01\",\"data_agendamento\":\"2019-05-01\",\"status\":\"Complicado\",\"observacao\":\"Foi atualizada com sucesso!!!\",\"created_at\":\"2020-06-06T20:56:42.127Z\",\"updated_at\":\"2020-06-06T20:56:44.641Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1018.json\"},{\"id\":1019,\"vara\":\"Nova Vara\",\"numero_processo\":\"11223\",\"natureza\":\"3\",\"partes\":\"João X Mária\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":\"Joana Dark\",\"data_entrada\":\"2019-12-25\",\"data_saida\":\"2020-01-01\",\"data_agendamento\":\"2019-05-01\",\"status\":\"Complicado\",\"observacao\":\"Foi atualizada com sucesso!!!\",\"created_at\":\"2020-06-06T20:57:22.233Z\",\"updated_at\":\"2020-06-06T20:57:25.408Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1019.json\"},{\"id\":1020,\"vara\":\"Nova Vara\",\"numero_processo\":\"11223\",\"natureza\":\"3\",\"partes\":\"João X Mária\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":\"Joana Dark\",\"data_entrada\":\"2019-12-25\",\"data_saida\":\"2020-01-01\",\"data_agendamento\":\"2019-05-01\",\"status\":\"Complicado\",\"observacao\":\"Foi atualizada com sucesso!!!\",\"created_at\":\"2020-06-06T20:59:58.592Z\",\"updated_at\":\"2020-06-06T21:00:00.841Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1020.json\"},{\"id\":1021,\"vara\":\"Nova Vara\",\"numero_processo\":\"11223\",\"natureza\":\"3\",\"partes\":\"João X Mária\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":\"Joana Dark\",\"data_entrada\":\"2019-12-25\",\"data_saida\":\"2020-01-01\",\"data_agendamento\":\"2019-05-01\",\"status\":\"Complicado\",\"observacao\":\"Foi atualizada com sucesso!!!\",\"created_at\":\"2020-06-06T21:02:40.807Z\",\"updated_at\":\"2020-06-06T21:02:42.607Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1021.json\"},{\"id\":1022,\"vara\":\"Nova Vara\",\"numero_processo\":\"11223\",\"natureza\":\"3\",\"partes\":\"João X Mária\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":\"Joana Dark\",\"data_entrada\":\"2019-12-25\",\"data_saida\":\"2020-01-01\",\"data_agendamento\":\"2019-05-01\",\"status\":\"Complicado\",\"observacao\":\"Foi atualizada com sucesso!!!\",\"created_at\":\"2020-06-06T21:03:29.577Z\",\"updated_at\":\"2020-06-06T21:03:31.747Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1022.json\"},{\"id\":1040,\"vara\":\"4\",\"numero_processo\":\"31313131\",\"natureza\":\"Patrimonio\",\"partes\":\"Diego x Barbara\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"John Dee\",\"data_entrada\":\"2019-12-25\",\"data_saida\":\"2020-01-01\",\"data_agendamento\":\"2019-05-01\",\"status\":\"Complicado\",\"observacao\":\"Verificar processo.\",\"created_at\":\"2020-06-07T03:54:29.413Z\",\"updated_at\":\"2020-06-07T03:54:29.413Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1040.json\"},{\"id\":1024,\"vara\":\"Nova Vara\",\"numero_processo\":\"11223\",\"natureza\":\"3\",\"partes\":\"João X Mária\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":\"Joana Dark\",\"data_entrada\":\"2019-12-25\",\"data_saida\":\"2020-01-01\",\"data_agendamento\":\"2019-05-01\",\"status\":\"Complicado\",\"observacao\":\"Foi atualizada com sucesso!!!\",\"created_at\":\"2020-06-06T21:19:57.772Z\",\"updated_at\":\"2020-06-06T21:20:00.188Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1024.json\"},{\"id\":983,\"vara\":\"tedtrer\",\"numero_processo\":\"tetete\",\"natureza\":\"tetet\",\"partes\":\"5\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":\"thgdfghdfgfdg\",\"data_entrada\":\"1990-04-05\",\"data_saida\":\"2020-04-05\",\"data_agendamento\":\"2020-04-05\",\"status\":\"Inativo\",\"observacao\":\"teste\",\"created_at\":\"2020-06-06T00:39:56.764Z\",\"updated_at\":\"2020-06-06T00:39:56.764Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/983.json\"},{\"id\":984,\"vara\":\"18011\",\"numero_processo\":\"11223\",\"natureza\":\"3\",\"partes\":\"João X Mária\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":\"Joana Dark\",\"data_entrada\":\"2019-12-25\",\"data_saida\":\"2020-01-01\",\"data_agendamento\":\"2019-05-01\",\"status\":\"Complicado\",\"observacao\":\"Teste\",\"created_at\":\"2020-06-06T00:53:10.550Z\",\"updated_at\":\"2020-06-06T00:53:10.550Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/984.json\"},{\"id\":985,\"vara\":\"18011\",\"numero_processo\":\"11223\",\"natureza\":\"3\",\"partes\":\"João X Mária\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":\"Joana Dark\",\"data_entrada\":\"2019-12-25\",\"data_saida\":\"2020-01-01\",\"data_agendamento\":\"2019-05-01\",\"status\":\"Complicado\",\"observacao\":\"Teste\",\"created_at\":\"2020-06-06T00:53:59.637Z\",\"updated_at\":\"2020-06-06T00:53:59.637Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/985.json\"},{\"id\":986,\"vara\":\"18011\",\"numero_processo\":\"11223\",\"natureza\":\"3\",\"partes\":\"João X Mária\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":\"Joana Dark\",\"data_entrada\":\"2019-12-25\",\"data_saida\":\"2020-01-01\",\"data_agendamento\":\"2019-05-01\",\"status\":\"Complicado\",\"observacao\":\"Teste\",\"created_at\":\"2020-06-06T16:54:32.204Z\",\"updated_at\":\"2020-06-06T16:54:32.204Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/986.json\"},{\"id\":987,\"vara\":\"teste\",\"numero_processo\":\"11223\",\"natureza\":\"3\",\"partes\":\"João X Mária\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":\"Joana Dark\",\"data_entrada\":\"2019-12-25\",\"data_saida\":\"2020-01-01\",\"data_agendamento\":\"2019-05-01\",\"status\":\"Complicado\",\"observacao\":\"Teste\",\"created_at\":\"2020-06-06T18:51:11.062Z\",\"updated_at\":\"2020-06-06T18:51:11.062Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/987.json\"},{\"id\":988,\"vara\":\"18011\",\"numero_processo\":\"11223\",\"natureza\":\"3\",\"partes\":\"João X Mária\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":\"Joana Dark\",\"data_entrada\":\"2019-12-25\",\"data_saida\":\"2020-01-01\",\"data_agendamento\":\"2019-05-01\",\"status\":\"Complicado\",\"observacao\":\"Teste\",\"created_at\":\"2020-06-06T18:59:27.171Z\",\"updated_at\":\"2020-06-06T18:59:27.171Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/988.json\"},{\"id\":989,\"vara\":\"teste\",\"numero_processo\":\"11223\",\"natureza\":\"3\",\"partes\":\"João X Mária\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":\"Joana Dark\",\"data_entrada\":\"2019-12-25\",\"data_saida\":\"2020-01-01\",\"data_agendamento\":\"2019-05-01\",\"status\":\"Complicado\",\"observacao\":\"Teste\",\"created_at\":\"2020-06-06T19:03:06.812Z\",\"updated_at\":\"2020-06-06T19:03:06.812Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/989.json\"},{\"id\":990,\"vara\":\"18011\",\"numero_processo\":\"11223\",\"natureza\":\"3\",\"partes\":\"João X Mária\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":\"Joana Dark\",\"data_entrada\":\"2019-12-25\",\"data_saida\":\"2020-01-01\",\"data_agendamento\":\"2019-05-01\",\"status\":\"Complicado\",\"observacao\":\"Teste\",\"created_at\":\"2020-06-06T19:05:33.298Z\",\"updated_at\":\"2020-06-06T19:05:33.298Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/990.json\"},{\"id\":1025,\"vara\":\"Nova Vara\",\"numero_processo\":\"11223\",\"natureza\":\"3\",\"partes\":\"João X Mária\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":\"Joana Dark\",\"data_entrada\":\"2019-12-25\",\"data_saida\":\"2020-01-01\",\"data_agendamento\":\"2019-05-01\",\"status\":\"Complicado\",\"observacao\":\"Foi atualizada com sucesso!!!\",\"created_at\":\"2020-06-06T21:26:34.551Z\",\"updated_at\":\"2020-06-06T21:26:36.418Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1025.json\"},{\"id\":992,\"vara\":\"teste\",\"numero_processo\":\"11223\",\"natureza\":\"3\",\"partes\":\"João X Mária\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":\"Joana Dark\",\"data_entrada\":\"2019-12-25\",\"data_saida\":\"2020-01-01\",\"data_agendamento\":\"2019-05-01\",\"status\":\"Complicado\",\"observacao\":\"Teste\",\"created_at\":\"2020-06-06T19:17:43.019Z\",\"updated_at\":\"2020-06-06T19:17:43.019Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/992.json\"},{\"id\":993,\"vara\":\"teste\",\"numero_processo\":\"11223\",\"natureza\":\"3\",\"partes\":\"João X Mária\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":\"Joana Dark\",\"data_entrada\":\"2019-12-25\",\"data_saida\":\"2020-01-01\",\"data_agendamento\":\"2019-05-01\",\"status\":\"Complicado\",\"observacao\":\"Teste\",\"created_at\":\"2020-06-06T19:18:41.621Z\",\"updated_at\":\"2020-06-06T19:18:41.621Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/993.json\"},{\"id\":994,\"vara\":\"teste\",\"numero_processo\":\"11223\",\"natureza\":\"3\",\"partes\":\"João X Mária\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":\"Joana Dark\",\"data_entrada\":\"2019-12-25\",\"data_saida\":\"2020-01-01\",\"data_agendamento\":\"2019-05-01\",\"status\":\"Complicado\",\"observacao\":\"Teste\",\"created_at\":\"2020-06-06T19:23:50.995Z\",\"updated_at\":\"2020-06-06T19:23:50.995Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/994.json\"},{\"id\":995,\"vara\":\"teste\",\"numero_processo\":\"11223\",\"natureza\":\"3\",\"partes\":\"João X Mária\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":\"Joana Dark\",\"data_entrada\":\"2019-12-25\",\"data_saida\":\"2020-01-01\",\"data_agendamento\":\"2019-05-01\",\"status\":\"Complicado\",\"observacao\":\"Teste\",\"created_at\":\"2020-06-06T19:31:27.926Z\",\"updated_at\":\"2020-06-06T19:31:27.926Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/995.json\"},{\"id\":996,\"vara\":\"teste\",\"numero_processo\":\"11223\",\"natureza\":\"3\",\"partes\":\"João X Mária\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":\"Joana Dark\",\"data_entrada\":\"2019-12-25\",\"data_saida\":\"2020-01-01\",\"data_agendamento\":\"2019-05-01\",\"status\":\"Complicado\",\"observacao\":\"Teste\",\"created_at\":\"2020-06-06T19:32:44.270Z\",\"updated_at\":\"2020-06-06T19:32:44.270Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/996.json\"},{\"id\":997,\"vara\":\"teste\",\"numero_processo\":\"11223\",\"natureza\":\"3\",\"partes\":\"João X Mária\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":\"Joana Dark\",\"data_entrada\":\"2019-12-25\",\"data_saida\":\"2020-01-01\",\"data_agendamento\":\"2019-05-01\",\"status\":\"Complicado\",\"observacao\":\"Teste\",\"created_at\":\"2020-06-06T19:36:58.153Z\",\"updated_at\":\"2020-06-06T19:36:58.153Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/997.json\"},{\"id\":998,\"vara\":\"teste\",\"numero_processo\":\"11223\",\"natureza\":\"3\",\"partes\":\"João X Mária\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":\"Joana Dark\",\"data_entrada\":\"2019-12-25\",\"data_saida\":\"2020-01-01\",\"data_agendamento\":\"2019-05-01\",\"status\":\"Complicado\",\"observacao\":\"Teste\",\"created_at\":\"2020-06-06T19:39:23.133Z\",\"updated_at\":\"2020-06-06T19:39:23.133Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/998.json\"},{\"id\":999,\"vara\":\"teste\",\"numero_processo\":\"11223\",\"natureza\":\"3\",\"partes\":\"João X Mária\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":\"Joana Dark\",\"data_entrada\":\"2019-12-25\",\"data_saida\":\"2020-01-01\",\"data_agendamento\":\"2019-05-01\",\"status\":\"Complicado\",\"observacao\":\"Teste\",\"created_at\":\"2020-06-06T19:40:34.602Z\",\"updated_at\":\"2020-06-06T19:40:34.602Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/999.json\"},{\"id\":1000,\"vara\":\"teste\",\"numero_processo\":\"11223\",\"natureza\":\"3\",\"partes\":\"João X Mária\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":\"Joana Dark\",\"data_entrada\":\"2019-12-25\",\"data_saida\":\"2020-01-01\",\"data_agendamento\":\"2019-05-01\",\"status\":\"Complicado\",\"observacao\":\"Teste\",\"created_at\":\"2020-06-06T19:41:44.246Z\",\"updated_at\":\"2020-06-06T19:41:44.246Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1000.json\"},{\"id\":1001,\"vara\":\"teste\",\"numero_processo\":\"11223\",\"natureza\":\"3\",\"partes\":\"João X Mária\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":\"Joana Dark\",\"data_entrada\":\"2019-12-25\",\"data_saida\":\"2020-01-01\",\"data_agendamento\":\"2019-05-01\",\"status\":\"Complicado\",\"observacao\":\"Teste\",\"created_at\":\"2020-06-06T19:45:59.050Z\",\"updated_at\":\"2020-06-06T19:45:59.050Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1001.json\"},{\"id\":1002,\"vara\":\"teste\",\"numero_processo\":\"11223\",\"natureza\":\"3\",\"partes\":\"João X Mária\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":\"Joana Dark\",\"data_entrada\":\"2019-12-25\",\"data_saida\":\"2020-01-01\",\"data_agendamento\":\"2019-05-01\",\"status\":\"Complicado\",\"observacao\":\"Teste\",\"created_at\":\"2020-06-06T19:46:16.832Z\",\"updated_at\":\"2020-06-06T19:46:16.832Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1002.json\"},{\"id\":1003,\"vara\":\"teste\",\"numero_processo\":\"11223\",\"natureza\":\"3\",\"partes\":\"João X Mária\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":\"Joana Dark\",\"data_entrada\":\"2019-12-25\",\"data_saida\":\"2020-01-01\",\"data_agendamento\":\"2019-05-01\",\"status\":\"Complicado\",\"observacao\":\"Teste\",\"created_at\":\"2020-06-06T19:47:01.894Z\",\"updated_at\":\"2020-06-06T19:47:01.894Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1003.json\"},{\"id\":1026,\"vara\":\"Nova Vara\",\"numero_processo\":\"11223\",\"natureza\":\"3\",\"partes\":\"João X Mária\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":\"Joana Dark\",\"data_entrada\":\"2019-12-25\",\"data_saida\":\"2020-01-01\",\"data_agendamento\":\"2019-05-01\",\"status\":\"Complicado\",\"observacao\":\"Foi atualizada com sucesso!!!\",\"created_at\":\"2020-06-06T21:27:02.708Z\",\"updated_at\":\"2020-06-06T21:27:04.647Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1026.json\"},{\"id\":1030,\"vara\":\"3\",\"numero_processo\":\"4\",\"natureza\":\"Guarda\",\"partes\":\"Jose x Maria\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Gisele\",\"data_entrada\":\"2020-10-20\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Aguardando\",\"observacao\":\"\",\"created_at\":\"2020-06-07T03:42:06.282Z\",\"updated_at\":\"2020-06-07T03:42:06.282Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1030.json\"},{\"id\":1031,\"vara\":\"processo da elite br\",\"numero_processo\":\"31313131\",\"natureza\":\"Patrimonio\",\"partes\":\"Diego x Barbara\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"John Dee\",\"data_entrada\":\"2019-12-25\",\"data_saida\":\"2020-01-01\",\"data_agendamento\":\"2019-05-01\",\"status\":\"Complicado\",\"observacao\":\"Verificar processo.\",\"created_at\":\"2020-06-07T03:44:53.257Z\",\"updated_at\":\"2020-06-07T03:44:53.257Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1031.json\"},{\"id\":1032,\"vara\":\"4\",\"numero_processo\":\"31313131\",\"natureza\":\"Patrimonio\",\"partes\":\"Diego x Barbara\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"John Dee\",\"data_entrada\":\"2019-12-25\",\"data_saida\":\"2020-01-01\",\"data_agendamento\":\"2019-05-01\",\"status\":\"Complicado\",\"observacao\":\"Verificar processo.\",\"created_at\":\"2020-06-07T03:48:44.081Z\",\"updated_at\":\"2020-06-07T03:48:44.081Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1032.json\"},{\"id\":1033,\"vara\":\"4\",\"numero_processo\":\"31313131\",\"natureza\":\"Patrimonio\",\"partes\":\"Diego x Barbara\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"John Dee\",\"data_entrada\":\"2019-12-25\",\"data_saida\":\"2020-01-01\",\"data_agendamento\":\"2019-05-01\",\"status\":\"Complicado\",\"observacao\":\"Verificar processo.\",\"created_at\":\"2020-06-07T03:48:45.784Z\",\"updated_at\":\"2020-06-07T03:48:45.784Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1033.json\"},{\"id\":1034,\"vara\":\"53\",\"numero_processo\":\"31313131\",\"natureza\":\"Patrimonio\",\"partes\":\"Diego x Barbara\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"John Dee\",\"data_entrada\":\"2019-12-25\",\"data_saida\":\"2020-01-01\",\"data_agendamento\":\"2019-05-01\",\"status\":\"Complicado\",\"observacao\":\"Verificar processo.\",\"created_at\":\"2020-06-07T03:48:46.159Z\",\"updated_at\":\"2020-06-07T03:48:46.159Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1034.json\"},{\"id\":1035,\"vara\":\"435\",\"numero_processo\":\"31313131\",\"natureza\":\"Patrimonio\",\"partes\":\"Diego x Barbara\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"John Dee\",\"data_entrada\":\"2019-12-25\",\"data_saida\":\"2020-01-01\",\"data_agendamento\":\"2019-05-01\",\"status\":\"Complicado\",\"observacao\":\"Verificar processo.\",\"created_at\":\"2020-06-07T03:48:46.751Z\",\"updated_at\":\"2020-06-07T03:48:46.751Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1035.json\"},{\"id\":1036,\"vara\":\"processo da elite br\",\"numero_processo\":\"31313131\",\"natureza\":\"Patrimonio\",\"partes\":\"Diego x Barbara\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"John Dee\",\"data_entrada\":\"2019-12-25\",\"data_saida\":\"2020-01-01\",\"data_agendamento\":\"2019-05-01\",\"status\":\"Complicado\",\"observacao\":\"Verificar processo.\",\"created_at\":\"2020-06-07T03:48:47.616Z\",\"updated_at\":\"2020-06-07T03:48:47.616Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1036.json\"},{\"id\":1010,\"vara\":\"Nova Vara\",\"numero_processo\":\"11223\",\"natureza\":\"3\",\"partes\":\"João X Mária\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":\"Joana Dark\",\"data_entrada\":\"2019-12-25\",\"data_saida\":\"2020-01-01\",\"data_agendamento\":\"2019-05-01\",\"status\":\"Complicado\",\"observacao\":\"Foi atualizada com sucesso!!!\",\"created_at\":\"2020-06-06T19:58:15.968Z\",\"updated_at\":\"2020-06-06T19:58:17.939Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1010.json\"},{\"id\":1037,\"vara\":\"32\",\"numero_processo\":\"31313131\",\"natureza\":\"Patrimonio\",\"partes\":\"Diego x Barbara\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"John Dee\",\"data_entrada\":\"2019-12-25\",\"data_saida\":\"2020-01-01\",\"data_agendamento\":\"2019-05-01\",\"status\":\"Complicado\",\"observacao\":\"Verificar processo.\",\"created_at\":\"2020-06-07T03:48:48.398Z\",\"updated_at\":\"2020-06-07T03:48:48.755Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1037.json\"},{\"id\":1041,\"vara\":\"4\",\"numero_processo\":\"31313131\",\"natureza\":\"Patrimonio\",\"partes\":\"Diego x Barbara\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"John Dee\",\"data_entrada\":\"2019-12-25\",\"data_saida\":\"2020-01-01\",\"data_agendamento\":\"2019-05-01\",\"status\":\"Complicado\",\"observacao\":\"Verificar processo.\",\"created_at\":\"2020-06-07T03:54:30.690Z\",\"updated_at\":\"2020-06-07T03:54:30.690Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1041.json\"},{\"id\":1042,\"vara\":\"435\",\"numero_processo\":\"31313131\",\"natureza\":\"Patrimonio\",\"partes\":\"Diego x Barbara\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"John Dee\",\"data_entrada\":\"2019-12-25\",\"data_saida\":\"2020-01-01\",\"data_agendamento\":\"2019-05-01\",\"status\":\"Complicado\",\"observacao\":\"Verificar processo.\",\"created_at\":\"2020-06-07T03:54:31.074Z\",\"updated_at\":\"2020-06-07T03:54:31.074Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1042.json\"},{\"id\":1043,\"vara\":\"processo da elite br\",\"numero_processo\":\"31313131\",\"natureza\":\"Patrimonio\",\"partes\":\"Diego x Barbara\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"John Dee\",\"data_entrada\":\"2019-12-25\",\"data_saida\":\"2020-01-01\",\"data_agendamento\":\"2019-05-01\",\"status\":\"Complicado\",\"observacao\":\"Verificar processo.\",\"created_at\":\"2020-06-07T03:54:31.834Z\",\"updated_at\":\"2020-06-07T03:54:31.834Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1043.json\"},{\"id\":1044,\"vara\":\"32\",\"numero_processo\":\"31313131\",\"natureza\":\"Patrimonio\",\"partes\":\"Diego x Barbara\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"John Dee\",\"data_entrada\":\"2019-12-25\",\"data_saida\":\"2020-01-01\",\"data_agendamento\":\"2019-05-01\",\"status\":\"Complicado\",\"observacao\":\"Verificar processo.\",\"created_at\":\"2020-06-07T03:54:32.518Z\",\"updated_at\":\"2020-06-07T03:54:32.889Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1044.json\"},{\"id\":1045,\"vara\":\"39\",\"numero_processo\":\"31313131\",\"natureza\":\"Guarda de Menor\",\"partes\":\"Diego x Barbara\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"John Dee\",\"data_entrada\":\"2019-12-25\",\"data_saida\":\"2020-01-01\",\"data_agendamento\":\"2019-05-01\",\"status\":\"Complicado\",\"observacao\":\"Verificar processo.\",\"created_at\":\"2020-06-07T03:54:33.276Z\",\"updated_at\":\"2020-06-07T03:54:33.629Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1045.json\"},{\"id\":1047,\"vara\":\"dasdasdasdasdasdasdasdasdasdaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\",\"numero_processo\":\"4\",\"natureza\":\"Guarda\",\"partes\":\"Jose x Maria\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Gisele\",\"data_entrada\":\"2020-10-20\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Aguardando\",\"observacao\":\"\",\"created_at\":\"2020-06-07T03:59:07.041Z\",\"updated_at\":\"2020-06-07T03:59:07.041Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1047.json\"},{\"id\":1048,\"vara\":\"9\",\"numero_processo\":\"7\",\"natureza\":\"Guarda\",\"partes\":\"J X M\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Pedro\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Aguardando\",\"observacao\":\"\",\"created_at\":\"2020-06-07T17:16:27.873Z\",\"updated_at\":\"2020-06-07T17:16:27.873Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1048.json\"},{\"id\":1049,\"vara\":\"2598\",\"numero_processo\":\"2598\",\"natureza\":\"Divida\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Agendado com sucesso\",\"created_at\":\"2020-06-07T17:55:34.401Z\",\"updated_at\":\"2020-06-07T17:55:34.401Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1049.json\"},{\"id\":1055,\"vara\":\"2598\",\"numero_processo\":\"2598\",\"natureza\":\"Divida\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Agendado com sucesso\",\"created_at\":\"2020-06-07T18:27:57.770Z\",\"updated_at\":\"2020-06-07T18:27:57.770Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1055.json\"},{\"id\":1056,\"vara\":\"2598\",\"numero_processo\":\"2598\",\"natureza\":\"Divida\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Agendado com sucesso\",\"created_at\":\"2020-06-07T18:29:15.125Z\",\"updated_at\":\"2020-06-07T18:29:15.125Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1056.json\"},{\"id\":1057,\"vara\":\"2598\",\"numero_processo\":\"2598\",\"natureza\":\"Divida\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Agendado com sucesso\",\"created_at\":\"2020-06-07T18:33:48.923Z\",\"updated_at\":\"2020-06-07T18:33:48.923Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1057.json\"},{\"id\":1058,\"vara\":\"2598\",\"numero_processo\":\"2598\",\"natureza\":\"Divida\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Agendado com sucesso\",\"created_at\":\"2020-06-07T18:37:20.380Z\",\"updated_at\":\"2020-06-07T18:37:20.380Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1058.json\"},{\"id\":1059,\"vara\":\"2598\",\"numero_processo\":\"2598\",\"natureza\":\"Divida\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Agendado com sucesso\",\"created_at\":\"2020-06-07T18:37:21.188Z\",\"updated_at\":\"2020-06-07T18:37:21.188Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1059.json\"},{\"id\":1060,\"vara\":\"2598\",\"numero_processo\":\"2598\",\"natureza\":\"Divida\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Agendado com sucesso\",\"created_at\":\"2020-06-07T18:40:43.554Z\",\"updated_at\":\"2020-06-07T18:40:43.554Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1060.json\"},{\"id\":1061,\"vara\":\"2598\",\"numero_processo\":\"2598\",\"natureza\":\"Divida\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Agendado com sucesso\",\"created_at\":\"2020-06-07T18:40:44.280Z\",\"updated_at\":\"2020-06-07T18:40:44.280Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1061.json\"},{\"id\":1062,\"vara\":\"\\u003cvara\\u003e\",\"numero_processo\":\"2599\",\"natureza\":\"Gasto\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Agendado com sucesso\",\"created_at\":\"2020-06-07T19:08:12.115Z\",\"updated_at\":\"2020-06-07T19:08:12.115Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1062.json\"},{\"id\":1063,\"vara\":\"\\u003cvara\\u003e\",\"numero_processo\":\"2599\",\"natureza\":\"Gasto\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Atualizado com sucesso\",\"created_at\":\"2020-06-07T19:11:36.053Z\",\"updated_at\":\"2020-06-07T19:11:36.936Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1063.json\"},{\"id\":1064,\"vara\":\"\\u003cvara\\u003e\",\"numero_processo\":\"2599\",\"natureza\":\"Gasto\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Atualizado com sucesso\",\"created_at\":\"2020-06-07T19:18:20.551Z\",\"updated_at\":\"2020-06-07T19:18:21.653Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1064.json\"},{\"id\":1065,\"vara\":\"\\u003cvara\\u003e\",\"numero_processo\":\"2599\",\"natureza\":\"Gasto\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Atualizado com sucesso\",\"created_at\":\"2020-06-07T19:18:22.250Z\",\"updated_at\":\"2020-06-07T19:18:22.846Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1065.json\"},{\"id\":1066,\"vara\":\"\\u003cvara\\u003e\",\"numero_processo\":\"2599\",\"natureza\":\"Gasto\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Atualizado com sucesso\",\"created_at\":\"2020-06-07T19:18:29.075Z\",\"updated_at\":\"2020-06-07T19:18:29.807Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1066.json\"},{\"id\":1067,\"vara\":\"\\u003cvara\\u003e\",\"numero_processo\":\"2599\",\"natureza\":\"Gasto\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Atualizado com sucesso\",\"created_at\":\"2020-06-07T19:18:30.167Z\",\"updated_at\":\"2020-06-07T19:18:30.569Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1067.json\"},{\"id\":1068,\"vara\":\"\\u003cvara\\u003e\",\"numero_processo\":\"2599\",\"natureza\":\"Gasto\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Atualizado com sucesso\",\"created_at\":\"2020-06-07T19:18:59.109Z\",\"updated_at\":\"2020-06-07T19:18:59.926Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1068.json\"},{\"id\":1069,\"vara\":\"\\u003cvara\\u003e\",\"numero_processo\":\"2599\",\"natureza\":\"Gasto\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Atualizado com sucesso\",\"created_at\":\"2020-06-07T19:19:00.360Z\",\"updated_at\":\"2020-06-07T19:19:00.756Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1069.json\"},{\"id\":1070,\"vara\":\"\\u003cvara\\u003e\",\"numero_processo\":\"2599\",\"natureza\":\"Gasto\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Atualizado com sucesso\",\"created_at\":\"2020-06-07T19:21:09.011Z\",\"updated_at\":\"2020-06-07T19:21:09.757Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1070.json\"},{\"id\":1071,\"vara\":\"\\u003cvara\\u003e\",\"numero_processo\":\"2598\",\"natureza\":\"Gasto\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Atualizado com sucesso\",\"created_at\":\"2020-06-07T19:21:10.123Z\",\"updated_at\":\"2020-06-07T19:21:10.468Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1071.json\"},{\"id\":1072,\"vara\":\"\\u003cvara\\u003e\",\"numero_processo\":\"2599\",\"natureza\":\"Gasto\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Atualizado com sucesso\",\"created_at\":\"2020-06-07T19:24:43.981Z\",\"updated_at\":\"2020-06-07T19:24:44.712Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1072.json\"},{\"id\":1073,\"vara\":\"\\u003cvara\\u003e\",\"numero_processo\":\"2599\",\"natureza\":\"Gasto\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Atualizado com sucesso\",\"created_at\":\"2020-06-07T19:24:45.114Z\",\"updated_at\":\"2020-06-07T19:24:45.493Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1073.json\"},{\"id\":1074,\"vara\":\"\\u003cvara\\u003e\",\"numero_processo\":\"2599\",\"natureza\":\"Gasto\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Atualizado com sucesso\",\"created_at\":\"2020-06-07T19:27:51.945Z\",\"updated_at\":\"2020-06-07T19:27:52.685Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1074.json\"},{\"id\":1075,\"vara\":\"\\u003cvara\\u003e\",\"numero_processo\":\"2599\",\"natureza\":\"Gasto\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Atualizado com sucesso\",\"created_at\":\"2020-06-07T19:29:13.377Z\",\"updated_at\":\"2020-06-07T19:29:14.149Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1075.json\"},{\"id\":1076,\"vara\":\"\\u003cvara\\u003e\",\"numero_processo\":\"2600\",\"natureza\":\"Gasto\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Atualizado com sucesso\",\"created_at\":\"2020-06-07T19:29:14.553Z\",\"updated_at\":\"2020-06-07T19:29:14.940Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1076.json\"},{\"id\":1077,\"vara\":\"\\u003cvara\\u003e\",\"numero_processo\":\"2598\",\"natureza\":\"Gasto\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Atualizado com sucesso\",\"created_at\":\"2020-06-07T19:30:06.529Z\",\"updated_at\":\"2020-06-07T19:30:07.315Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1077.json\"},{\"id\":1078,\"vara\":\"\\u003cvara\\u003e\",\"numero_processo\":\"2598\",\"natureza\":\"Gasto\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Atualizado com sucesso\",\"created_at\":\"2020-06-07T19:30:07.694Z\",\"updated_at\":\"2020-06-07T19:30:08.039Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1078.json\"},{\"id\":1079,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissão domiciliar\",\"created_at\":\"2020-06-07T19:30:13.983Z\",\"updated_at\":\"2020-06-07T19:30:13.983Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1079.json\"},{\"id\":1080,\"vara\":\"\\u003cvara\\u003e\",\"numero_processo\":\"2599\",\"natureza\":\"Gasto\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Atualizado com sucesso\",\"created_at\":\"2020-06-07T19:30:21.844Z\",\"updated_at\":\"2020-06-07T19:30:22.648Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1080.json\"},{\"id\":1081,\"vara\":\"\\u003cvara\\u003e\",\"numero_processo\":\"2598\",\"natureza\":\"Gasto\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Atualizado com sucesso\",\"created_at\":\"2020-06-07T19:30:23.042Z\",\"updated_at\":\"2020-06-07T19:30:23.410Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1081.json\"},{\"id\":1082,\"vara\":\"\\u003cvara\\u003e\",\"numero_processo\":\"2599\",\"natureza\":\"Gasto\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Atualizado com sucesso\",\"created_at\":\"2020-06-07T19:30:41.930Z\",\"updated_at\":\"2020-06-07T19:30:42.738Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1082.json\"},{\"id\":1083,\"vara\":\"\\u003cvara\\u003e\",\"numero_processo\":\"2599\",\"natureza\":\"Gasto\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Atualizado com sucesso\",\"created_at\":\"2020-06-07T19:30:43.113Z\",\"updated_at\":\"2020-06-07T19:30:43.526Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1083.json\"},{\"id\":1084,\"vara\":\"\\u003cvara\\u003e\",\"numero_processo\":\"2599\",\"natureza\":\"Gasto\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Atualizado com sucesso\",\"created_at\":\"2020-06-07T19:31:24.041Z\",\"updated_at\":\"2020-06-07T19:31:24.778Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1084.json\"},{\"id\":1085,\"vara\":\"\\u003cvara\\u003e\",\"numero_processo\":\"2599\",\"natureza\":\"Gasto\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Atualizado com sucesso\",\"created_at\":\"2020-06-07T19:31:25.170Z\",\"updated_at\":\"2020-06-07T19:31:25.544Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1085.json\"},{\"id\":1086,\"vara\":\"\\u003cvara\\u003e\",\"numero_processo\":\"2599\",\"natureza\":\"Gasto\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Atualizado com sucesso\",\"created_at\":\"2020-06-07T19:32:10.930Z\",\"updated_at\":\"2020-06-07T19:32:11.903Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1086.json\"},{\"id\":1087,\"vara\":\"\\u003cvara\\u003e\",\"numero_processo\":\"2599\",\"natureza\":\"Gasto\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Atualizado com sucesso\",\"created_at\":\"2020-06-07T19:32:12.361Z\",\"updated_at\":\"2020-06-07T19:32:12.724Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1087.json\"},{\"id\":1088,\"vara\":\"\\u003cvara\\u003e\",\"numero_processo\":\"2598\",\"natureza\":\"Gasto\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Atualizado com sucesso\",\"created_at\":\"2020-06-07T19:33:21.105Z\",\"updated_at\":\"2020-06-07T19:33:21.826Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1088.json\"},{\"id\":1089,\"vara\":\"\\u003cvara\\u003e\",\"numero_processo\":\"2599\",\"natureza\":\"Gasto\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Atualizado com sucesso\",\"created_at\":\"2020-06-07T19:33:22.192Z\",\"updated_at\":\"2020-06-07T19:33:22.565Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1089.json\"},{\"id\":1090,\"vara\":\"2598\",\"numero_processo\":\"2598\",\"natureza\":\"Divida\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Agendado com sucesso\",\"created_at\":\"2020-06-07T19:33:40.760Z\",\"updated_at\":\"2020-06-07T19:33:40.760Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1090.json\"},{\"id\":1091,\"vara\":\"\\u003cvara\\u003e\",\"numero_processo\":\"2598\",\"natureza\":\"Gasto\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Atualizado com sucesso\",\"created_at\":\"2020-06-07T19:33:59.214Z\",\"updated_at\":\"2020-06-07T19:34:00.017Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1091.json\"},{\"id\":1092,\"vara\":\"\\u003cvara\\u003e\",\"numero_processo\":\"2599\",\"natureza\":\"Gasto\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Atualizado com sucesso\",\"created_at\":\"2020-06-07T19:34:00.384Z\",\"updated_at\":\"2020-06-07T19:34:00.762Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1092.json\"},{\"id\":1093,\"vara\":\"\\u003cvara\\u003e\",\"numero_processo\":\"2599\",\"natureza\":\"Gasto\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Atualizado com sucesso\",\"created_at\":\"2020-06-07T19:35:12.660Z\",\"updated_at\":\"2020-06-07T19:35:13.398Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1093.json\"},{\"id\":1094,\"vara\":\"\\u003cvara\\u003e\",\"numero_processo\":\"2599\",\"natureza\":\"Gasto\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Atualizado com sucesso\",\"created_at\":\"2020-06-07T19:35:42.822Z\",\"updated_at\":\"2020-06-07T19:35:43.631Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1094.json\"},{\"id\":1095,\"vara\":\"\\u003cvara\\u003e\",\"numero_processo\":\"2599\",\"natureza\":\"Gasto\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Atualizado com sucesso\",\"created_at\":\"2020-06-07T19:36:38.655Z\",\"updated_at\":\"2020-06-07T19:36:39.389Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1095.json\"},{\"id\":1096,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissão domiciliar\",\"created_at\":\"2020-06-07T19:39:54.493Z\",\"updated_at\":\"2020-06-07T19:39:54.493Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1096.json\"},{\"id\":1097,\"vara\":\"\\u003cvara\\u003e\",\"numero_processo\":\"2599\",\"natureza\":\"Gasto\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Atualizado com sucesso\",\"created_at\":\"2020-06-07T19:39:57.389Z\",\"updated_at\":\"2020-06-07T19:39:58.152Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1097.json\"},{\"id\":1098,\"vara\":\"\\u003cvara\\u003e\",\"numero_processo\":\"2599\",\"natureza\":\"Gasto\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Atualizado com sucesso\",\"created_at\":\"2020-06-07T19:40:08.576Z\",\"updated_at\":\"2020-06-07T19:40:09.340Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1098.json\"},{\"id\":1099,\"vara\":\"\\u003cvara\\u003e\",\"numero_processo\":\"2599\",\"natureza\":\"Gasto\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Atualizado com sucesso\",\"created_at\":\"2020-06-07T19:40:09.698Z\",\"updated_at\":\"2020-06-07T19:40:10.042Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1099.json\"},{\"id\":1100,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissão domiciliar\",\"created_at\":\"2020-06-07T19:42:19.019Z\",\"updated_at\":\"2020-06-07T19:42:19.019Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1100.json\"},{\"id\":1101,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissão domiciliar\",\"created_at\":\"2020-06-07T19:43:49.102Z\",\"updated_at\":\"2020-06-07T19:43:49.102Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1101.json\"},{\"id\":1102,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissão domiciliar\",\"created_at\":\"2020-06-07T19:48:49.104Z\",\"updated_at\":\"2020-06-07T19:48:49.104Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1102.json\"},{\"id\":1113,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissão domiciliar\",\"created_at\":\"2020-06-07T19:59:35.210Z\",\"updated_at\":\"2020-06-07T19:59:35.210Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1113.json\"},{\"id\":1104,\"vara\":\"\\u003cvara\\u003e\",\"numero_processo\":\"2599\",\"natureza\":\"Gasto\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Atualizado com sucesso\",\"created_at\":\"2020-06-07T19:49:04.425Z\",\"updated_at\":\"2020-06-07T19:49:04.767Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1104.json\"},{\"id\":1105,\"vara\":\"2598\",\"numero_processo\":\"2598\",\"natureza\":\"Divida\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Agendado com sucesso\",\"created_at\":\"2020-06-07T19:49:19.256Z\",\"updated_at\":\"2020-06-07T19:49:19.256Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1105.json\"},{\"id\":1106,\"vara\":\"2598\",\"numero_processo\":\"2598\",\"natureza\":\"Divida\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Agendado com sucesso\",\"created_at\":\"2020-06-07T19:49:19.971Z\",\"updated_at\":\"2020-06-07T19:49:19.971Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1106.json\"},{\"id\":1107,\"vara\":\"\\u003cvara\\u003e\",\"numero_processo\":\"2599\",\"natureza\":\"Gasto\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Atualizado com sucesso\",\"created_at\":\"2020-06-07T19:53:34.536Z\",\"updated_at\":\"2020-06-07T19:53:35.258Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1107.json\"},{\"id\":1108,\"vara\":\"\\u003cvara\\u003e\",\"numero_processo\":\"2599\",\"natureza\":\"Gasto\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Atualizado com sucesso\",\"created_at\":\"2020-06-07T19:53:35.597Z\",\"updated_at\":\"2020-06-07T19:53:35.972Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1108.json\"},{\"id\":1109,\"vara\":\"\\u003cvara\\u003e\",\"numero_processo\":\"2599\",\"natureza\":\"Gasto\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Atualizado com sucesso\",\"created_at\":\"2020-06-07T19:53:36.308Z\",\"updated_at\":\"2020-06-07T19:53:36.652Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1109.json\"},{\"id\":1110,\"vara\":\"\\u003cvara\\u003e\",\"numero_processo\":\"2599\",\"natureza\":\"Gasto\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Atualizado com sucesso\",\"created_at\":\"2020-06-07T19:53:37.005Z\",\"updated_at\":\"2020-06-07T19:53:37.355Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1110.json\"},{\"id\":1111,\"vara\":\"\\u003cvara\\u003e\",\"numero_processo\":\"2599\",\"natureza\":\"Gasto\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Atualizado com sucesso\",\"created_at\":\"2020-06-07T19:53:38.020Z\",\"updated_at\":\"2020-06-07T19:53:38.358Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1111.json\"},{\"id\":1114,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissão domiciliar\",\"created_at\":\"2020-06-07T20:00:31.549Z\",\"updated_at\":\"2020-06-07T20:00:31.549Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1114.json\"},{\"id\":1115,\"vara\":\"\\u003cvara\\u003e\",\"numero_processo\":\"2599\",\"natureza\":\"Gasto\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Agendado com sucesso\",\"created_at\":\"2020-06-07T20:01:48.516Z\",\"updated_at\":\"2020-06-07T20:01:48.516Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1115.json\"},{\"id\":1116,\"vara\":\"\\u003cvara\\u003e\",\"numero_processo\":\"2599\",\"natureza\":\"Gasto\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Atualizado com sucesso\",\"created_at\":\"2020-06-07T20:01:49.230Z\",\"updated_at\":\"2020-06-07T20:01:49.230Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1116.json\"},{\"id\":1117,\"vara\":\"\\u003cvara\\u003e\",\"numero_processo\":\"2599\",\"natureza\":\"Gasto\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Agendado com sucesso\",\"created_at\":\"2020-06-07T20:06:49.064Z\",\"updated_at\":\"2020-06-07T20:06:49.064Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1117.json\"},{\"id\":1119,\"vara\":\"2598\",\"numero_processo\":\"2598\",\"natureza\":\"Divida\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Agendado com sucesso\",\"created_at\":\"2020-06-07T20:13:10.724Z\",\"updated_at\":\"2020-06-07T20:13:10.724Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1119.json\"},{\"id\":1120,\"vara\":\"2598\",\"numero_processo\":\"2598\",\"natureza\":\"Divida\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Agendado com sucesso\",\"created_at\":\"2020-06-07T20:13:11.469Z\",\"updated_at\":\"2020-06-07T20:13:11.469Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1120.json\"},{\"id\":1156,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissão domiciliar\",\"created_at\":\"2020-06-07T21:46:23.558Z\",\"updated_at\":\"2020-06-07T21:46:23.558Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1156.json\"},{\"id\":1122,\"vara\":\"\\u003cvara\\u003e\",\"numero_processo\":\"2599\",\"natureza\":\"Gasto\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Agendado com sucesso\",\"created_at\":\"2020-06-07T20:13:25.866Z\",\"updated_at\":\"2020-06-07T20:13:25.866Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1122.json\"},{\"id\":1123,\"vara\":\"\\u003cvara\\u003e\",\"numero_processo\":\"2599\",\"natureza\":\"Gasto\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Atualizado com sucesso\",\"created_at\":\"2020-06-07T20:13:26.211Z\",\"updated_at\":\"2020-06-07T20:13:26.211Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1123.json\"},{\"id\":1124,\"vara\":\"\\u003cvara\\u003e\",\"numero_processo\":\"2599\",\"natureza\":\"Gasto\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Agendado com sucesso\",\"created_at\":\"2020-06-07T20:13:26.865Z\",\"updated_at\":\"2020-06-07T20:13:26.865Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1124.json\"},{\"id\":1126,\"vara\":\"\\u003cvara\\u003e\",\"numero_processo\":\"2599\",\"natureza\":\"Gasto\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Atualizado com sucesso\",\"created_at\":\"2020-06-07T20:13:34.713Z\",\"updated_at\":\"2020-06-07T20:13:35.389Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1126.json\"},{\"id\":1127,\"vara\":\"\\u003cvara\\u003e\",\"numero_processo\":\"2599\",\"natureza\":\"Gasto\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Atualizado com sucesso\",\"created_at\":\"2020-06-07T20:13:35.720Z\",\"updated_at\":\"2020-06-07T20:13:36.048Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1127.json\"},{\"id\":1128,\"vara\":\"\\u003cvara\\u003e\",\"numero_processo\":\"2599\",\"natureza\":\"Gasto\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Atualizado com sucesso\",\"created_at\":\"2020-06-07T20:13:36.372Z\",\"updated_at\":\"2020-06-07T20:13:36.719Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1128.json\"},{\"id\":1129,\"vara\":\"\\u003cvara\\u003e\",\"numero_processo\":\"2599\",\"natureza\":\"Gasto\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Atualizado com sucesso\",\"created_at\":\"2020-06-07T20:13:37.054Z\",\"updated_at\":\"2020-06-07T20:13:37.402Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1129.json\"},{\"id\":1130,\"vara\":\"\\u003cvara\\u003e\",\"numero_processo\":\"2599\",\"natureza\":\"Gasto\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Atualizado com sucesso\",\"created_at\":\"2020-06-07T20:13:38.063Z\",\"updated_at\":\"2020-06-07T20:13:38.392Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1130.json\"},{\"id\":1131,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissão domiciliar\",\"created_at\":\"2020-06-07T20:20:11.706Z\",\"updated_at\":\"2020-06-07T20:20:11.706Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1131.json\"},{\"id\":1132,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissão domiciliar\",\"created_at\":\"2020-06-07T20:21:24.857Z\",\"updated_at\":\"2020-06-07T20:21:24.857Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1132.json\"},{\"id\":1133,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissão domiciliar\",\"created_at\":\"2020-06-07T20:24:09.494Z\",\"updated_at\":\"2020-06-07T20:24:09.494Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1133.json\"},{\"id\":1134,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissão domiciliar\",\"created_at\":\"2020-06-07T20:30:57.239Z\",\"updated_at\":\"2020-06-07T20:30:57.239Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1134.json\"},{\"id\":1135,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissão domiciliar\",\"created_at\":\"2020-06-07T20:39:56.986Z\",\"updated_at\":\"2020-06-07T20:39:56.986Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1135.json\"},{\"id\":1136,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissão domiciliar\",\"created_at\":\"2020-06-07T20:51:22.870Z\",\"updated_at\":\"2020-06-07T20:51:22.870Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1136.json\"},{\"id\":1137,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissão domiciliar\",\"created_at\":\"2020-06-07T20:52:24.283Z\",\"updated_at\":\"2020-06-07T20:52:24.283Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1137.json\"},{\"id\":1138,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissão domiciliar\",\"created_at\":\"2020-06-07T20:52:48.026Z\",\"updated_at\":\"2020-06-07T20:52:48.026Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1138.json\"},{\"id\":1050,\"vara\":\"3598\",\"numero_processo\":\"6598\",\"natureza\":\"Divida\",\"partes\":\"Gasto x Planejado\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"EDU\",\"data_entrada\":\"2019-10-20\",\"data_saida\":\"2020-10-20\",\"data_agendamento\":null,\"status\":\"Em andamento\",\"observacao\":\"Agendado com sucesso\",\"created_at\":\"2020-06-07T18:07:38.771Z\",\"updated_at\":\"2020-06-07T20:59:02.640Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1050.json\"},{\"id\":1139,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissão domiciliar\",\"created_at\":\"2020-06-07T21:09:56.303Z\",\"updated_at\":\"2020-06-07T21:09:56.303Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1139.json\"},{\"id\":1140,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissão domiciliar\",\"created_at\":\"2020-06-07T21:10:16.804Z\",\"updated_at\":\"2020-06-07T21:10:16.804Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1140.json\"},{\"id\":1141,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissão domiciliar\",\"created_at\":\"2020-06-07T21:10:17.976Z\",\"updated_at\":\"2020-06-07T21:10:17.976Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1141.json\"},{\"id\":1142,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissão domiciliar\",\"created_at\":\"2020-06-07T21:10:18.921Z\",\"updated_at\":\"2020-06-07T21:10:18.921Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1142.json\"},{\"id\":1143,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissão domiciliar\",\"created_at\":\"2020-06-07T21:10:19.479Z\",\"updated_at\":\"2020-06-07T21:10:19.479Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1143.json\"},{\"id\":1144,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissão domiciliar\",\"created_at\":\"2020-06-07T21:33:06.436Z\",\"updated_at\":\"2020-06-07T21:33:06.436Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1144.json\"},{\"id\":1145,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissão domiciliar\",\"created_at\":\"2020-06-07T21:33:07.605Z\",\"updated_at\":\"2020-06-07T21:33:07.605Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1145.json\"},{\"id\":1146,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissão domiciliar\",\"created_at\":\"2020-06-07T21:33:08.540Z\",\"updated_at\":\"2020-06-07T21:33:09.082Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1146.json\"},{\"id\":1148,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissão domiciliar\",\"created_at\":\"2020-06-07T21:34:45.633Z\",\"updated_at\":\"2020-06-07T21:34:45.633Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1148.json\"},{\"id\":1149,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissão domiciliar\",\"created_at\":\"2020-06-07T21:34:46.820Z\",\"updated_at\":\"2020-06-07T21:34:46.820Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1149.json\"},{\"id\":1150,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissão domiciliar\",\"created_at\":\"2020-06-07T21:34:47.619Z\",\"updated_at\":\"2020-06-07T21:34:48.022Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1150.json\"},{\"id\":1152,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissão domiciliar\",\"created_at\":\"2020-06-07T21:36:22.583Z\",\"updated_at\":\"2020-06-07T21:36:22.583Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1152.json\"},{\"id\":1153,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissão domiciliar\",\"created_at\":\"2020-06-07T21:36:23.684Z\",\"updated_at\":\"2020-06-07T21:36:23.684Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1153.json\"},{\"id\":1154,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissão domiciliar\",\"created_at\":\"2020-06-07T21:36:24.523Z\",\"updated_at\":\"2020-06-07T21:36:24.912Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1154.json\"},{\"id\":1157,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissão domiciliar\",\"created_at\":\"2020-06-07T21:46:24.581Z\",\"updated_at\":\"2020-06-07T21:46:24.581Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1157.json\"},{\"id\":1158,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissão domiciliar\",\"created_at\":\"2020-06-07T21:46:25.381Z\",\"updated_at\":\"2020-06-07T21:46:25.381Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1158.json\"},{\"id\":1159,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissão domiciliar\",\"created_at\":\"2020-06-07T21:46:26.273Z\",\"updated_at\":\"2020-06-07T21:46:26.273Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1159.json\"},{\"id\":1160,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissão domiciliar\",\"created_at\":\"2020-06-07T21:46:27.196Z\",\"updated_at\":\"2020-06-07T21:46:27.596Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1160.json\"},{\"id\":1162,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissão domiciliar\",\"created_at\":\"2020-06-07T21:49:37.894Z\",\"updated_at\":\"2020-06-07T21:49:37.894Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1162.json\"},{\"id\":1163,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissão domiciliar\",\"created_at\":\"2020-06-07T21:49:39.102Z\",\"updated_at\":\"2020-06-07T21:49:39.102Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1163.json\"},{\"id\":1164,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissão domiciliar\",\"created_at\":\"2020-06-07T21:49:40.033Z\",\"updated_at\":\"2020-06-07T21:49:40.033Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1164.json\"},{\"id\":1165,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissão domiciliar\",\"created_at\":\"2020-06-07T21:49:41.096Z\",\"updated_at\":\"2020-06-07T21:49:41.096Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1165.json\"},{\"id\":1166,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissão domiciliar\",\"created_at\":\"2020-06-07T21:49:42.163Z\",\"updated_at\":\"2020-06-07T21:49:42.697Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1166.json\"},{\"id\":1168,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissão domiciliar\",\"created_at\":\"2020-06-07T21:52:51.246Z\",\"updated_at\":\"2020-06-07T21:52:51.246Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1168.json\"},{\"id\":1169,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissão domiciliar\",\"created_at\":\"2020-06-07T21:52:52.654Z\",\"updated_at\":\"2020-06-07T21:52:52.654Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1169.json\"},{\"id\":1170,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissão domiciliar\",\"created_at\":\"2020-06-07T21:52:53.606Z\",\"updated_at\":\"2020-06-07T21:52:53.606Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1170.json\"},{\"id\":1171,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissão domiciliar\",\"created_at\":\"2020-06-07T21:52:54.290Z\",\"updated_at\":\"2020-06-07T21:52:54.290Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1171.json\"},{\"id\":1172,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissão domiciliar\",\"created_at\":\"2020-06-07T21:52:54.956Z\",\"updated_at\":\"2020-06-07T21:52:55.305Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1172.json\"},{\"id\":1174,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissão domiciliar\",\"created_at\":\"2020-06-07T21:55:22.462Z\",\"updated_at\":\"2020-06-07T21:55:22.462Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1174.json\"},{\"id\":1175,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissão domiciliar\",\"created_at\":\"2020-06-07T21:55:23.714Z\",\"updated_at\":\"2020-06-07T21:55:23.714Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1175.json\"},{\"id\":1176,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissão domiciliar\",\"created_at\":\"2020-06-07T21:55:24.521Z\",\"updated_at\":\"2020-06-07T21:55:24.521Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1176.json\"},{\"id\":1177,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissão domiciliar\",\"created_at\":\"2020-06-07T21:55:25.192Z\",\"updated_at\":\"2020-06-07T21:55:25.192Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1177.json\"},{\"id\":1178,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissão domiciliar\",\"created_at\":\"2020-06-07T21:55:25.898Z\",\"updated_at\":\"2020-06-07T21:55:26.455Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1178.json\"},{\"id\":1180,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissão domiciliar\",\"created_at\":\"2020-06-07T21:55:41.662Z\",\"updated_at\":\"2020-06-07T21:55:41.662Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1180.json\"},{\"id\":1181,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissão domiciliar\",\"created_at\":\"2020-06-07T21:55:42.748Z\",\"updated_at\":\"2020-06-07T21:55:42.748Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1181.json\"},{\"id\":1182,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissão domiciliar\",\"created_at\":\"2020-06-07T21:55:44.631Z\",\"updated_at\":\"2020-06-07T21:55:44.631Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1182.json\"},{\"id\":1183,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissão domiciliar\",\"created_at\":\"2020-06-07T21:55:45.285Z\",\"updated_at\":\"2020-06-07T21:55:45.285Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1183.json\"},{\"id\":1184,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissão domiciliar\",\"created_at\":\"2020-06-07T21:55:45.944Z\",\"updated_at\":\"2020-06-07T21:55:46.460Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1184.json\"},{\"id\":1186,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissÃ£o domiciliar\",\"created_at\":\"2020-06-07T21:56:47.980Z\",\"updated_at\":\"2020-06-07T21:56:47.980Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1186.json\"},{\"id\":1187,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissÃ£o domiciliar\",\"created_at\":\"2020-06-07T21:56:49.017Z\",\"updated_at\":\"2020-06-07T21:56:49.017Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1187.json\"},{\"id\":1188,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissÃ£o domiciliar\",\"created_at\":\"2020-06-07T21:56:50.077Z\",\"updated_at\":\"2020-06-07T21:56:50.077Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1188.json\"},{\"id\":1189,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissÃ£o domiciliar\",\"created_at\":\"2020-06-07T21:56:51.026Z\",\"updated_at\":\"2020-06-07T21:56:51.026Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1189.json\"},{\"id\":1190,\"vara\":\"9999\",\"numero_processo\":\"10000\",\"natureza\":\"Atentado a Viva\",\"partes\":\"Terrorista X Vitima\",\"urgente\":\"N\",\"arbitramento\":\"S\",\"assistente_social\":\"Impacta\",\"data_entrada\":\"2020-06-07\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"Agendado\",\"observacao\":\"Terrorista em prissÃ£o domiciliar\",\"created_at\":\"2020-06-07T21:56:51.950Z\",\"updated_at\":\"2020-06-07T21:56:53.578Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1190.json\"},{\"id\":1192,\"vara\":\"processo[vara]: 789\",\"numero_processo\":\"processo[numero_processo]:  789\",\"natureza\":\"processo[natureza]: 789\",\"partes\":\"processo[partes]: 789\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":\"\",\"data_entrada\":\"2020-06-06\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"processo[status]: 789\",\"observacao\":\"\",\"created_at\":\"2020-06-13T15:30:26.972Z\",\"updated_at\":\"2020-06-13T15:30:26.972Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1192.json\"},{\"id\":1193,\"vara\":\"789\",\"numero_processo\":\"789\",\"natureza\":\"789\",\"partes\":\"789\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":null,\"data_entrada\":\"2020-06-06\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"789\",\"observacao\":null,\"created_at\":\"2020-06-13T16:02:02.808Z\",\"updated_at\":\"2020-06-13T16:02:02.808Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1193.json\"},{\"id\":1194,\"vara\":\"789\",\"numero_processo\":\"789\",\"natureza\":\"789\",\"partes\":\"789\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":null,\"data_entrada\":\"2020-06-06\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"789\",\"observacao\":null,\"created_at\":\"2020-06-13T16:04:35.517Z\",\"updated_at\":\"2020-06-13T16:04:35.517Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1194.json\"},{\"id\":1195,\"vara\":\"789\",\"numero_processo\":\"789\",\"natureza\":\"789\",\"partes\":\"789\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":null,\"data_entrada\":\"2020-06-06\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"789\",\"observacao\":null,\"created_at\":\"2020-06-13T16:07:49.705Z\",\"updated_at\":\"2020-06-13T16:07:49.705Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1195.json\"},{\"id\":1196,\"vara\":\"789\",\"numero_processo\":\"789\",\"natureza\":\"789\",\"partes\":\"789\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":null,\"data_entrada\":\"2020-06-06\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"789\",\"observacao\":null,\"created_at\":\"2020-06-13T16:28:28.495Z\",\"updated_at\":\"2020-06-13T16:28:28.495Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1196.json\"},{\"id\":1197,\"vara\":\"789\",\"numero_processo\":\"789\",\"natureza\":\"789\",\"partes\":\"789\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":null,\"data_entrada\":\"2020-06-06\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"789\",\"observacao\":null,\"created_at\":\"2020-06-13T16:30:15.221Z\",\"updated_at\":\"2020-06-13T16:30:15.221Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1197.json\"},{\"id\":1198,\"vara\":\"789\",\"numero_processo\":\"789\",\"natureza\":\"789\",\"partes\":\"789\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":null,\"data_entrada\":\"2020-06-06\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"789\",\"observacao\":null,\"created_at\":\"2020-06-13T16:31:45.108Z\",\"updated_at\":\"2020-06-13T16:31:45.108Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1198.json\"},{\"id\":1199,\"vara\":\"789\",\"numero_processo\":\"789\",\"natureza\":\"789\",\"partes\":\"789\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":null,\"data_entrada\":\"2020-06-06\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"789\",\"observacao\":null,\"created_at\":\"2020-06-13T16:43:48.621Z\",\"updated_at\":\"2020-06-13T16:43:48.621Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1199.json\"},{\"id\":1200,\"vara\":\"789\",\"numero_processo\":\"789\",\"natureza\":\"789\",\"partes\":\"789\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":null,\"data_entrada\":\"2020-06-06\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"789\",\"observacao\":null,\"created_at\":\"2020-06-13T16:44:44.784Z\",\"updated_at\":\"2020-06-13T16:44:44.784Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1200.json\"},{\"id\":1201,\"vara\":\"789\",\"numero_processo\":\"789\",\"natureza\":\"789\",\"partes\":\"789\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":null,\"data_entrada\":\"2020-06-06\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"789\",\"observacao\":null,\"created_at\":\"2020-06-13T16:46:12.352Z\",\"updated_at\":\"2020-06-13T16:46:12.352Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1201.json\"},{\"id\":1202,\"vara\":\"789\",\"numero_processo\":\"789\",\"natureza\":\"789\",\"partes\":\"789\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":null,\"data_entrada\":\"2020-06-06\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"789\",\"observacao\":null,\"created_at\":\"2020-06-13T16:47:13.360Z\",\"updated_at\":\"2020-06-13T16:47:13.360Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1202.json\"},{\"id\":1203,\"vara\":\"789\",\"numero_processo\":\"789\",\"natureza\":\"789\",\"partes\":\"789\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":null,\"data_entrada\":\"2020-06-06\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"789\",\"observacao\":null,\"created_at\":\"2020-06-13T16:49:11.397Z\",\"updated_at\":\"2020-06-13T16:49:11.397Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1203.json\"},{\"id\":1204,\"vara\":\"789\",\"numero_processo\":\"789\",\"natureza\":\"789\",\"partes\":\"789\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":null,\"data_entrada\":\"2020-06-06\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"789\",\"observacao\":null,\"created_at\":\"2020-06-13T16:49:37.182Z\",\"updated_at\":\"2020-06-13T16:49:37.182Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1204.json\"},{\"id\":1205,\"vara\":\"789\",\"numero_processo\":\"789\",\"natureza\":\"789\",\"partes\":\"789\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":null,\"data_entrada\":\"2020-06-06\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"789\",\"observacao\":null,\"created_at\":\"2020-06-13T16:50:23.673Z\",\"updated_at\":\"2020-06-13T16:50:23.673Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1205.json\"},{\"id\":1206,\"vara\":\"789\",\"numero_processo\":\"789\",\"natureza\":\"789\",\"partes\":\"789\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":null,\"data_entrada\":\"2020-06-06\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"789\",\"observacao\":null,\"created_at\":\"2020-06-13T16:51:00.733Z\",\"updated_at\":\"2020-06-13T16:51:00.733Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1206.json\"},{\"id\":1207,\"vara\":\"789\",\"numero_processo\":\"789\",\"natureza\":\"789\",\"partes\":\"789\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":null,\"data_entrada\":\"2020-06-06\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"789\",\"observacao\":null,\"created_at\":\"2020-06-13T16:51:31.491Z\",\"updated_at\":\"2020-06-13T16:51:31.491Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1207.json\"},{\"id\":1208,\"vara\":\"789\",\"numero_processo\":\"789\",\"natureza\":\"789\",\"partes\":\"789\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":null,\"data_entrada\":\"2020-06-06\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"789\",\"observacao\":null,\"created_at\":\"2020-06-13T16:52:35.686Z\",\"updated_at\":\"2020-06-13T16:52:35.686Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1208.json\"},{\"id\":1209,\"vara\":\"789\",\"numero_processo\":\"789\",\"natureza\":\"789\",\"partes\":\"789\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":null,\"data_entrada\":\"2020-06-06\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"789\",\"observacao\":null,\"created_at\":\"2020-06-13T16:52:54.733Z\",\"updated_at\":\"2020-06-13T16:52:54.733Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1209.json\"},{\"id\":1210,\"vara\":\"789\",\"numero_processo\":\"789\",\"natureza\":\"789\",\"partes\":\"789\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":null,\"data_entrada\":\"2020-06-06\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"789\",\"observacao\":null,\"created_at\":\"2020-06-13T19:01:43.978Z\",\"updated_at\":\"2020-06-13T19:01:43.978Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1210.json\"},{\"id\":1211,\"vara\":\"789\",\"numero_processo\":\"789\",\"natureza\":\"789\",\"partes\":\"789\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":null,\"data_entrada\":\"2020-06-06\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"789\",\"observacao\":null,\"created_at\":\"2020-06-13T19:02:28.498Z\",\"updated_at\":\"2020-06-13T19:02:28.498Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1211.json\"},{\"id\":1212,\"vara\":\"789\",\"numero_processo\":\"789\",\"natureza\":\"789\",\"partes\":\"789\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":null,\"data_entrada\":\"2020-06-06\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"789\",\"observacao\":null,\"created_at\":\"2020-06-13T19:03:15.820Z\",\"updated_at\":\"2020-06-13T19:03:15.820Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1212.json\"},{\"id\":1213,\"vara\":\"vara:789\",\"numero_processo\":\"numero_processo:789\",\"natureza\":\"natureza:789\",\"partes\":\"partes:789\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":null,\"data_entrada\":\"2020-06-06\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"status:789\",\"observacao\":null,\"created_at\":\"2020-06-13T19:52:12.368Z\",\"updated_at\":\"2020-06-13T19:52:12.368Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1213.json\"},{\"id\":1214,\"vara\":\"ATUALIZADO:789\",\"numero_processo\":\"ATUALIZADO:789\",\"natureza\":\"ATUALIZADO:789\",\"partes\":\"ATUALIZADO:789\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":null,\"data_entrada\":\"2020-06-06\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"ATUALIZADO:789\",\"observacao\":null,\"created_at\":\"2020-06-13T19:54:31.174Z\",\"updated_at\":\"2020-06-13T19:54:31.936Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1214.json\"},{\"id\":1215,\"vara\":\"ATUALIZADO:789\",\"numero_processo\":\"ATUALIZADO:789\",\"natureza\":\"ATUALIZADO:789\",\"partes\":\"ATUALIZADO:789\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":null,\"data_entrada\":\"2020-06-06\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"ATUALIZADO:789\",\"observacao\":null,\"created_at\":\"2020-06-13T20:07:45.316Z\",\"updated_at\":\"2020-06-13T20:07:46.023Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1215.json\"},{\"id\":1216,\"vara\":\"789\",\"numero_processo\":\"789\",\"natureza\":\"789\",\"partes\":\"789\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":null,\"data_entrada\":\"2020-06-06\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"789\",\"observacao\":null,\"created_at\":\"2020-06-13T20:12:17.582Z\",\"updated_at\":\"2020-06-13T20:12:17.582Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1216.json\"},{\"id\":1219,\"vara\":\"789\",\"numero_processo\":\"789\",\"natureza\":\"789\",\"partes\":\"789\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":null,\"data_entrada\":\"2020-06-06\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"789\",\"observacao\":null,\"created_at\":\"2020-06-13T20:25:36.407Z\",\"updated_at\":\"2020-06-13T20:25:36.407Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1219.json\"},{\"id\":1221,\"vara\":\"ATUALIZADO:789\",\"numero_processo\":\"ATUALIZADO:789\",\"natureza\":\"ATUALIZADO:789\",\"partes\":\"ATUALIZADO:789\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":null,\"data_entrada\":\"2020-06-06\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"ATUALIZADO:789\",\"observacao\":null,\"created_at\":\"2020-06-13T20:25:41.031Z\",\"updated_at\":\"2020-06-13T20:25:41.406Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1221.json\"},{\"id\":1222,\"vara\":\"789\",\"numero_processo\":\"789\",\"natureza\":\"789\",\"partes\":\"789\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":null,\"data_entrada\":\"2020-06-06\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"789\",\"observacao\":null,\"created_at\":\"2020-06-13T20:26:23.866Z\",\"updated_at\":\"2020-06-13T20:26:23.866Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1222.json\"},{\"id\":1224,\"vara\":\"ATUALIZADO:789\",\"numero_processo\":\"ATUALIZADO:789\",\"natureza\":\"ATUALIZADO:789\",\"partes\":\"ATUALIZADO:789\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":null,\"data_entrada\":\"2020-06-06\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"ATUALIZADO:789\",\"observacao\":null,\"created_at\":\"2020-06-13T20:26:27.913Z\",\"updated_at\":\"2020-06-13T20:26:28.283Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1224.json\"},{\"id\":1225,\"vara\":\"789\",\"numero_processo\":\"789\",\"natureza\":\"789\",\"partes\":\"789\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":null,\"data_entrada\":\"2020-06-06\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"789\",\"observacao\":null,\"created_at\":\"2020-06-13T20:28:45.159Z\",\"updated_at\":\"2020-06-13T20:28:45.159Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1225.json\"},{\"id\":1227,\"vara\":\"ATUALIZADO:789\",\"numero_processo\":\"ATUALIZADO:789\",\"natureza\":\"ATUALIZADO:789\",\"partes\":\"ATUALIZADO:789\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":null,\"data_entrada\":\"2020-06-06\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"ATUALIZADO:789\",\"observacao\":null,\"created_at\":\"2020-06-13T20:28:49.301Z\",\"updated_at\":\"2020-06-13T20:28:49.655Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1227.json\"},{\"id\":1228,\"vara\":\"789\",\"numero_processo\":\"789\",\"natureza\":\"789\",\"partes\":\"789\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":null,\"data_entrada\":\"2020-06-06\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"789\",\"observacao\":null,\"created_at\":\"2020-06-13T20:31:53.143Z\",\"updated_at\":\"2020-06-13T20:31:53.143Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1228.json\"},{\"id\":1230,\"vara\":\"ATUALIZADO:789\",\"numero_processo\":\"ATUALIZADO:789\",\"natureza\":\"ATUALIZADO:789\",\"partes\":\"ATUALIZADO:789\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":null,\"data_entrada\":\"2020-06-06\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"ATUALIZADO:789\",\"observacao\":null,\"created_at\":\"2020-06-13T20:31:57.735Z\",\"updated_at\":\"2020-06-13T20:31:58.108Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1230.json\"},{\"id\":1231,\"vara\":\"789\",\"numero_processo\":\"789\",\"natureza\":\"789\",\"partes\":\"789\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":null,\"data_entrada\":\"2020-06-06\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"789\",\"observacao\":null,\"created_at\":\"2020-06-13T20:34:15.933Z\",\"updated_at\":\"2020-06-13T20:34:15.933Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1231.json\"},{\"id\":1233,\"vara\":\"ATUALIZADO:789\",\"numero_processo\":\"ATUALIZADO:789\",\"natureza\":\"ATUALIZADO:789\",\"partes\":\"ATUALIZADO:789\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":null,\"data_entrada\":\"2020-06-06\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"ATUALIZADO:789\",\"observacao\":null,\"created_at\":\"2020-06-13T20:34:20.173Z\",\"updated_at\":\"2020-06-13T20:34:20.546Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1233.json\"},{\"id\":1234,\"vara\":\"789\",\"numero_processo\":\"789\",\"natureza\":\"789\",\"partes\":\"789\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":null,\"data_entrada\":\"2020-06-06\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"789\",\"observacao\":null,\"created_at\":\"2020-06-13T20:37:48.210Z\",\"updated_at\":\"2020-06-13T20:37:48.210Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1234.json\"},{\"id\":1236,\"vara\":\"ATUALIZADO:789\",\"numero_processo\":\"ATUALIZADO:789\",\"natureza\":\"ATUALIZADO:789\",\"partes\":\"ATUALIZADO:789\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":null,\"data_entrada\":\"2020-06-06\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"ATUALIZADO:789\",\"observacao\":null,\"created_at\":\"2020-06-13T20:37:52.304Z\",\"updated_at\":\"2020-06-13T20:37:52.702Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1236.json\"},{\"id\":1237,\"vara\":\"789\",\"numero_processo\":\"789\",\"natureza\":\"789\",\"partes\":\"789\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":null,\"data_entrada\":\"2020-06-06\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"789\",\"observacao\":null,\"created_at\":\"2020-06-13T20:40:34.592Z\",\"updated_at\":\"2020-06-13T20:40:34.592Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1237.json\"},{\"id\":1239,\"vara\":\"ATUALIZADO:789\",\"numero_processo\":\"ATUALIZADO:789\",\"natureza\":\"ATUALIZADO:789\",\"partes\":\"ATUALIZADO:789\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":null,\"data_entrada\":\"2020-06-06\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"ATUALIZADO:789\",\"observacao\":null,\"created_at\":\"2020-06-13T20:40:38.845Z\",\"updated_at\":\"2020-06-13T20:40:39.237Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1239.json\"},{\"id\":1240,\"vara\":\"789\",\"numero_processo\":\"789\",\"natureza\":\"789\",\"partes\":\"789\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":null,\"data_entrada\":\"2020-06-06\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"789\",\"observacao\":null,\"created_at\":\"2020-06-13T20:41:27.379Z\",\"updated_at\":\"2020-06-13T20:41:27.379Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1240.json\"}] ]",
+              ""
+            ],
+            "result": {
+              "duration": 1456192600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on list all process button",
+            "match": {
+              "location": "GeneralSteps.userClickOnListAllButton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 92900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 28
+                }
+              ],
+              "location": "GeneralSteps.userShouldSeeStatusCode(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User already have access to http://agapito-server.herokuapp.com",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 15300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "User want to get a specific process",
+        "description": "",
+        "id": "get-all-process;user-want-to-get-a-specific-process;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 6200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User look for a single process",
+            "match": {
+              "location": "GetSteps.userLookForASingleProcess()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 55300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enter id as \"905\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "905",
+                  "offset": 18
+                }
+              ],
+              "location": "GetSteps.userEnterIdAs(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "METHOD: [ GET (Request) ]",
+              "Endpoint: [ http://agapito-server.herokuapp.com/processos/905 ]",
+              "Headers: [ Accept\u003dapplication/json, application/javascript, text/javascript\nContent-Type\u003dapplication/json; charset\u003dUTF-8 ]",
+              "Body - Request: [  ]",
+              "------------------------------------",
+              "METHOD: [ GET (Response) ]",
+              "Status Code: [ 200 ]",
+              "Response: [ {\"id\":905,\"vara\":\"3\",\"numero_processo\":\"123123123\",\"natureza\":\"Guarda\",\"partes\":\"José x Maria\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":\"Maria 123\",\"data_entrada\":\"2020-10-15\",\"data_saida\":\"2020-11-25\",\"data_agendamento\":\"2020-10-16\",\"status\":\"Aguardando\",\"observacao\":\"Nova teste\",\"created_at\":\"2020-06-02T00:08:59.803Z\",\"updated_at\":\"2020-06-02T00:09:00.456Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/905.json\"} ]",
+              ""
+            ],
+            "result": {
+              "duration": 386546000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User click on search button",
+            "match": {
+              "location": "GetSteps.userClickOnSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User should see status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 28
+                }
+              ],
+              "location": "GeneralSteps.userShouldSeeStatusCode(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@processTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User already have access to http://agapito-server.herokuapp.com",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 17800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "User want to get a specific process",
+        "description": "",
+        "id": "get-all-process;user-want-to-get-a-specific-process;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 8000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User look for a single process",
+            "match": {
+              "location": "GetSteps.userLookForASingleProcess()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 40700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enter id as \"789789\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "789789",
+                  "offset": 18
+                }
+              ],
+              "location": "GetSteps.userEnterIdAs(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "METHOD: [ GET (Request) ]",
+              "Endpoint: [ http://agapito-server.herokuapp.com/processos/789789 ]",
+              "Headers: [ Accept\u003dapplication/json, application/javascript, text/javascript\nContent-Type\u003dapplication/json; charset\u003dUTF-8 ]",
+              "Body - Request: [  ]",
+              "------------------------------------",
+              "METHOD: [ GET (Response) ]",
+              "Status Code: [ 404 ]",
+              "Response: [ {\"status\":404,\"error\":\"Not Found\"} ]",
+              ""
+            ],
+            "result": {
+              "duration": 355977000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User click on search button",
+            "match": {
+              "location": "GetSteps.userClickOnSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User should see status code 404",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 28
+                }
+              ],
+              "location": "GeneralSteps.userShouldSeeStatusCode(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@processTest"
+          }
+        ]
+      }
+    ],
+    "name": "Get all process",
+    "description": "",
+    "id": "get-all-process",
+    "keyword": "Feature",
+    "uri": "GetProcess.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@processTest"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User already have access to http://agapito-server.herokuapp.com",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 20200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "User must create a new process to update later",
+        "description": "",
+        "id": "update-an-existing-process;user-must-create-a-new-process-to-update-later",
+        "after": [
+          {
+            "result": {
+              "duration": 6000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User already in new process page",
+            "match": {
+              "location": "GeneralSteps.userAlreadyInNewProcessPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 35800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User fill field vara with value \"vara:789\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vara",
+                  "offset": 16
+                },
+                {
+                  "val": "vara:789",
+                  "offset": 33
+                }
+              ],
+              "location": "GeneralSteps.userFillFieldWithValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User fill field numero_processo with value \"numero_processo:789\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "numero_processo",
+                  "offset": 16
+                },
+                {
+                  "val": "numero_processo:789",
+                  "offset": 44
+                }
+              ],
+              "location": "GeneralSteps.userFillFieldWithValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User fill field natureza with value \"natureza:789\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "natureza",
+                  "offset": 16
+                },
+                {
+                  "val": "natureza:789",
+                  "offset": 37
+                }
+              ],
+              "location": "GeneralSteps.userFillFieldWithValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User fill field partes with value \"partes:789\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "partes",
+                  "offset": 16
+                },
+                {
+                  "val": "partes:789",
+                  "offset": 35
+                }
+              ],
+              "location": "GeneralSteps.userFillFieldWithValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User fill field urgente with value \"N\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "urgente",
+                  "offset": 16
+                },
+                {
+                  "val": "N",
+                  "offset": 36
+                }
+              ],
+              "location": "GeneralSteps.userFillFieldWithValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User fill field arbitramento with value \"N\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "arbitramento",
+                  "offset": 16
+                },
+                {
+                  "val": "N",
+                  "offset": 41
+                }
+              ],
+              "location": "GeneralSteps.userFillFieldWithValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User fill field assistencia_social with value \"assistencia_social:789\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "assistencia_social",
+                  "offset": 16
+                },
+                {
+                  "val": "assistencia_social:789",
+                  "offset": 47
+                }
+              ],
+              "location": "GeneralSteps.userFillFieldWithValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User fill field data_entrada with value \"06-06-2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "data_entrada",
+                  "offset": 16
+                },
+                {
+                  "val": "06-06-2020",
+                  "offset": 41
+                }
+              ],
+              "location": "GeneralSteps.userFillFieldWithValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User fill field status with value \"status:789\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "status",
+                  "offset": 16
+                },
+                {
+                  "val": "status:789",
+                  "offset": 35
+                }
+              ],
+              "location": "GeneralSteps.userFillFieldWithValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "METHOD: [ POST (Request) ]",
+              "Endpoint: [ http://agapito-server.herokuapp.com/processos/ ]",
+              "Headers: [ Accept\u003dapplication/json, application/javascript, text/javascript\nContent-Type\u003dapplication/json; charset\u003dUTF-8 ]",
+              "Body - Request: [ {arbitramento\u003dN, assistencia_social\u003dassistencia_social:789, data_entrada\u003d06-06-2020, natureza\u003dnatureza:789, numero_processo\u003dnumero_processo:789, partes\u003dpartes:789, status\u003dstatus:789, urgente\u003dN, vara\u003dvara:789} ]",
+              "------------------------------------",
+              "METHOD: [ POST (Response) ]",
+              "Status Code: [ 201 ]",
+              "Response: [ {\"id\":1242,\"vara\":\"vara:789\",\"numero_processo\":\"numero_processo:789\",\"natureza\":\"natureza:789\",\"partes\":\"partes:789\",\"urgente\":\"N\",\"arbitramento\":\"N\",\"assistente_social\":null,\"data_entrada\":\"2020-06-06\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"status:789\",\"observacao\":null,\"created_at\":\"2020-06-13T20:41:31.971Z\",\"updated_at\":\"2020-06-13T20:41:31.971Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1242.json\"} ]",
+              ""
+            ],
+            "result": {
+              "duration": 337009400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User click on save button",
+            "match": {
+              "location": "CreateSteps.userClickOnSaveButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User should see status code 201",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 28
+                }
+              ],
+              "location": "GeneralSteps.userShouldSeeStatusCode(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User already have access to http://agapito-server.herokuapp.com",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "User want to update the social assistance",
+        "description": "",
+        "id": "update-an-existing-process;user-want-to-update-the-social-assistance",
+        "after": [
+          {
+            "result": {
+              "duration": 13300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User already has the process id previously created",
+            "match": {
+              "location": "UpdateSteps.userAlreadyHasTheProcessIdPreviouslyCreated()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 43900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User fill field vara with value \"ATUALIZADO:789\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vara",
+                  "offset": 16
+                },
+                {
+                  "val": "ATUALIZADO:789",
+                  "offset": 33
+                }
+              ],
+              "location": "GeneralSteps.userFillFieldWithValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User fill field numero_processo with value \"ATUALIZADO:789\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "numero_processo",
+                  "offset": 16
+                },
+                {
+                  "val": "ATUALIZADO:789",
+                  "offset": 44
+                }
+              ],
+              "location": "GeneralSteps.userFillFieldWithValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User fill field natureza with value \"ATUALIZADO:789\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "natureza",
+                  "offset": 16
+                },
+                {
+                  "val": "ATUALIZADO:789",
+                  "offset": 37
+                }
+              ],
+              "location": "GeneralSteps.userFillFieldWithValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User fill field partes with value \"ATUALIZADO:789\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "partes",
+                  "offset": 16
+                },
+                {
+                  "val": "ATUALIZADO:789",
+                  "offset": 35
+                }
+              ],
+              "location": "GeneralSteps.userFillFieldWithValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User fill field urgente with value \"S\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "urgente",
+                  "offset": 16
+                },
+                {
+                  "val": "S",
+                  "offset": 36
+                }
+              ],
+              "location": "GeneralSteps.userFillFieldWithValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32700,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User fill field arbitramento with value \"S\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "arbitramento",
+                  "offset": 16
+                },
+                {
+                  "val": "S",
+                  "offset": 41
+                }
+              ],
+              "location": "GeneralSteps.userFillFieldWithValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33600,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User fill field assistencia_social with value \"ATUALIZADO\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "assistencia_social",
+                  "offset": 16
+                },
+                {
+                  "val": "ATUALIZADO",
+                  "offset": 47
+                }
+              ],
+              "location": "GeneralSteps.userFillFieldWithValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42600,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User fill field data_entrada with value \"06-06-2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "data_entrada",
+                  "offset": 16
+                },
+                {
+                  "val": "06-06-2020",
+                  "offset": 41
+                }
+              ],
+              "location": "GeneralSteps.userFillFieldWithValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33200,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User fill field status with value \"ATUALIZADO:789\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "status",
+                  "offset": 16
+                },
+                {
+                  "val": "ATUALIZADO:789",
+                  "offset": 35
+                }
+              ],
+              "location": "GeneralSteps.userFillFieldWithValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "METHOD: [ PUT (Request) ]",
+              "Endpoint: [ http://agapito-server.herokuapp.com/processos/1242 ]",
+              "Headers: [ Accept\u003dapplication/json, application/javascript, text/javascript\nContent-Type\u003dapplication/json; charset\u003dUTF-8 ]",
+              "Body - Request: [ {arbitramento\u003dS, assistencia_social\u003dATUALIZADO, data_entrada\u003d06-06-2020, natureza\u003dATUALIZADO:789, numero_processo\u003dATUALIZADO:789, partes\u003dATUALIZADO:789, status\u003dATUALIZADO:789, urgente\u003dS, vara\u003dATUALIZADO:789} ]",
+              "------------------------------------",
+              "METHOD: [ PUT (Response) ]",
+              "Status Code: [ 200 ]",
+              "Response: [ {\"id\":1242,\"vara\":\"ATUALIZADO:789\",\"numero_processo\":\"ATUALIZADO:789\",\"natureza\":\"ATUALIZADO:789\",\"partes\":\"ATUALIZADO:789\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":null,\"data_entrada\":\"2020-06-06\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"ATUALIZADO:789\",\"observacao\":null,\"created_at\":\"2020-06-13T20:41:31.971Z\",\"updated_at\":\"2020-06-13T20:41:32.318Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1242.json\"} ]",
+              ""
+            ],
+            "result": {
+              "duration": 335838200,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User click on button save update",
+            "match": {
+              "location": "UpdateSteps.userClickOnButtonSaveUpdate()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 72100,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User should see status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 28
+                }
+              ],
+              "location": "GeneralSteps.userShouldSeeStatusCode(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User already have access to http://agapito-server.herokuapp.com",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 22000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "User want check updated value",
+        "description": "",
+        "id": "update-an-existing-process;user-want-check-updated-value",
+        "after": [
+          {
+            "result": {
+              "duration": 21000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23700,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User already has the process id previously created",
+            "match": {
+              "location": "UpdateSteps.userAlreadyHasTheProcessIdPreviouslyCreated()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "output": [
+              "METHOD: [ GET (Request) ]",
+              "Endpoint: [ http://agapito-server.herokuapp.com/processos/1242 ]",
+              "Headers: [ Accept\u003dapplication/json, application/javascript, text/javascript\nContent-Type\u003dapplication/json; charset\u003dUTF-8 ]",
+              "Body - Request: [  ]",
+              "------------------------------------",
+              "METHOD: [ GET (Response) ]",
+              "Status Code: [ 200 ]",
+              "Response: [ {\"id\":1242,\"vara\":\"ATUALIZADO:789\",\"numero_processo\":\"ATUALIZADO:789\",\"natureza\":\"ATUALIZADO:789\",\"partes\":\"ATUALIZADO:789\",\"urgente\":\"S\",\"arbitramento\":\"S\",\"assistente_social\":null,\"data_entrada\":\"2020-06-06\",\"data_saida\":null,\"data_agendamento\":null,\"status\":\"ATUALIZADO:789\",\"observacao\":null,\"created_at\":\"2020-06-13T20:41:31.971Z\",\"updated_at\":\"2020-06-13T20:41:32.318Z\",\"url\":\"http://agapito-server.herokuapp.com/processos/1242.json\"} ]",
+              ""
+            ],
+            "result": {
+              "duration": 350959800,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User click on search button",
+            "match": {
+              "location": "GetSteps.userClickOnSearchButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9635200,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Response should contain \"ATUALIZADO:789\" as field vara value",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ATUALIZADO:789",
+                  "offset": 25
+                },
+                {
+                  "val": "vara",
+                  "offset": 50
+                }
+              ],
+              "location": "UpdateSteps.responseShouldContainAsFieldValue(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Update an existing process",
+    "description": "",
+    "id": "update-an-existing-process",
+    "keyword": "Feature",
+    "uri": "UpdateProcess.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@processTest"
+      }
+    ]
+  }
+]

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runner.RunnerTest" time="8.213" tests="81" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Users\gabri\.jdks\azul-1.8.0_252\jre\bin"/>
+    <property name="java.vm.version" value="25.252-b14"/>
+    <property name="jdk.vendor.version" value="Zulu 8.46.0.19-CA-win64"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\gabri\source\github\integration-testing\src"/>
+    <property name="java.vendor.url" value="http://www.azulsystems.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\gabri\source\github\integration-testing\src"/>
+    <property name="java.runtime.version" value="1.8.0_252-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Users\gabri\.jdks\azul-1.8.0_252\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\gabri\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.1\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.1\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\gabri\.jdks\azul-1.8.0_252\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Git\cmd;C:\Program Files\Zulu\zulu-11\bin\;C:\Program Files\apache-maven-3.6.3\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\gabri\AppData\Local\Microsoft\WindowsApps;C:\Users\gabri\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\gabri\AppData\Roaming\npm;C:\Users\gabri\.dotnet\tools;C:\Users\gabri\AppData\Local\Microsoft\WindowsApps;C:\Program Files\apache-maven-3.6.3\bin;;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.1\plugins\maven\lib\maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\gabri"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="gabri"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.1\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.1\plugins\maven\lib\maven3\boot\plexus-classworlds.license;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.1\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Users\gabri\.jdks\azul-1.8.0_252\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version2020.1.1 verify"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="pt"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="idea.version2020.1.1" value="true"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_252"/>
+    <property name="java.ext.dirs" value="C:\Users\gabri\.jdks\azul-1.8.0_252\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Users\gabri\.jdks\azul-1.8.0_252\jre\lib\resources.jar;C:\Users\gabri\.jdks\azul-1.8.0_252\jre\lib\rt.jar;C:\Users\gabri\.jdks\azul-1.8.0_252\jre\lib\sunrsasign.jar;C:\Users\gabri\.jdks\azul-1.8.0_252\jre\lib\jsse.jar;C:\Users\gabri\.jdks\azul-1.8.0_252\jre\lib\jce.jar;C:\Users\gabri\.jdks\azul-1.8.0_252\jre\lib\charsets.jar;C:\Users\gabri\.jdks\azul-1.8.0_252\jre\lib\jfr.jar;C:\Users\gabri\.jdks\azul-1.8.0_252\jre\classes"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.1\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://www.azulsystems.com/support/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Given User already in new process page" classname="Scenario: User want to create a new process" time="0.002"/>
+  <testcase name="And User fill field vara with value &quot;789&quot;" classname="Scenario: User want to create a new process" time="0"/>
+  <testcase name="And User fill field numero_processo with value &quot;789&quot;" classname="Scenario: User want to create a new process" time="0"/>
+  <testcase name="And User fill field natureza with value &quot;789&quot;" classname="Scenario: User want to create a new process" time="0"/>
+  <testcase name="And User fill field partes with value &quot;789&quot;" classname="Scenario: User want to create a new process" time="0"/>
+  <testcase name="And User fill field urgente with value &quot;N&quot;" classname="Scenario: User want to create a new process" time="0"/>
+  <testcase name="And User fill field arbitramento with value &quot;N&quot;" classname="Scenario: User want to create a new process" time="0"/>
+  <testcase name="And User fill field assistencia_social with value &quot;789&quot;" classname="Scenario: User want to create a new process" time="0"/>
+  <testcase name="And User fill field data_entrada with value &quot;06-06-2020&quot;" classname="Scenario: User want to create a new process" time="0"/>
+  <testcase name="And User fill field status with value &quot;789&quot;" classname="Scenario: User want to create a new process" time="0"/>
+  <testcase name="And User click on save button" classname="Scenario: User want to create a new process" time="0"/>
+  <testcase name="Then User should see status code 201" classname="Scenario: User want to create a new process" time="0"/>
+  <testcase name="Scenario: User want to create a new process" classname="Scenario: User want to create a new process" time="0.001"/>
+  <testcase name="Given User already has the process id previously created" classname="Scenario: User want check updated value" time="0"/>
+  <testcase name="Given User already has the process id previously created" classname="Scenario: User want check updated value" time="0"/>
+  <testcase name="When User click on search button" classname="Scenario: User want check updated value" time="0"/>
+  <testcase name="When User click on search button" classname="Scenario: User want check updated value" time="0"/>
+  <testcase name="Then User should see status code 200" classname="Scenario: User want check updated value" time="0"/>
+  <testcase name="Scenario: User want check updated value" classname="Scenario: User want check updated value" time="0"/>
+  <testcase name="Scenario: User want check updated value" classname="Scenario: User want check updated value" time="0.001"/>
+  <testcase name="Given User already in new process page" classname="Scenario: User must create a new process to delete later" time="0"/>
+  <testcase name="And User fill field vara with value &quot;vara:999&quot;" classname="Scenario: User must create a new process to delete later" time="0"/>
+  <testcase name="And User fill field numero_processo with value &quot;numero_processo:999&quot;" classname="Scenario: User must create a new process to delete later" time="0"/>
+  <testcase name="And User fill field natureza with value &quot;natureza:999&quot;" classname="Scenario: User must create a new process to delete later" time="0"/>
+  <testcase name="And User fill field partes with value &quot;partes:999&quot;" classname="Scenario: User must create a new process to delete later" time="0"/>
+  <testcase name="And User fill field urgente with value &quot;N&quot;" classname="Scenario: User must create a new process to delete later" time="0.001"/>
+  <testcase name="And User fill field arbitramento with value &quot;N&quot;" classname="Scenario: User must create a new process to delete later" time="0"/>
+  <testcase name="And User fill field assistencia_social with value &quot;assistencia_social:999&quot;" classname="Scenario: User must create a new process to delete later" time="0"/>
+  <testcase name="And User fill field data_entrada with value &quot;06-06-2020&quot;" classname="Scenario: User must create a new process to delete later" time="0"/>
+  <testcase name="And User fill field status with value &quot;status:999&quot;" classname="Scenario: User must create a new process to delete later" time="0"/>
+  <testcase name="And User click on save button" classname="Scenario: User must create a new process to delete later" time="0"/>
+  <testcase name="Then User should see status code 201" classname="Scenario: User must create a new process to delete later" time="0"/>
+  <testcase name="Scenario: User must create a new process to delete later" classname="Scenario: User must create a new process to delete later" time="0"/>
+  <testcase name="Given User already has the process id previously created" classname="Scenario: User want delete the previously created process" time="0"/>
+  <testcase name="And User click on button delete" classname="Scenario: User want delete the previously created process" time="0"/>
+  <testcase name="Then User should see status code 204" classname="Scenario: User want delete the previously created process" time="0"/>
+  <testcase name="Scenario: User want delete the previously created process" classname="Scenario: User want delete the previously created process" time="0"/>
+  <testcase name="Given User already has the process id previously created" classname="Scenario: User want check if the entity was deleted" time="0"/>
+  <testcase name="When User click on search button" classname="Scenario: User want check if the entity was deleted" time="0"/>
+  <testcase name="Then User should see status code 404" classname="Scenario: User want check if the entity was deleted" time="0"/>
+  <testcase name="Scenario: User want check if the entity was deleted" classname="Scenario: User want check if the entity was deleted" time="0"/>
+  <testcase name="Given User click on list all process button" classname="Scenario: User want to list all process" time="0"/>
+  <testcase name="Then User should see status code 200" classname="Scenario: User want to list all process" time="0"/>
+  <testcase name="Scenario: User want to list all process" classname="Scenario: User want to list all process" time="0"/>
+  <testcase name="Given User look for a single process" classname="| 905 | 200 |" time="0"/>
+  <testcase name="When User enter id as &quot;905&quot;" classname="| 905 | 200 |" time="0"/>
+  <testcase name="And User click on search button" classname="| 905 | 200 |" time="0"/>
+  <testcase name="Then User should see status code 200" classname="| 905 | 200 |" time="0"/>
+  <testcase name="| 905 | 200 |" classname="| 905 | 200 |" time="0"/>
+  <testcase name="Given User look for a single process" classname="| 789789 | 404 |" time="0"/>
+  <testcase name="When User enter id as &quot;789789&quot;" classname="| 789789 | 404 |" time="0"/>
+  <testcase name="And User click on search button" classname="| 789789 | 404 |" time="0"/>
+  <testcase name="Then User should see status code 404" classname="| 789789 | 404 |" time="0"/>
+  <testcase name="| 789789 | 404 |" classname="| 789789 | 404 |" time="0"/>
+  <testcase name="Given User already in new process page" classname="Scenario: User must create a new process to update later" time="0"/>
+  <testcase name="And User fill field vara with value &quot;vara:789&quot;" classname="Scenario: User must create a new process to update later" time="0"/>
+  <testcase name="And User fill field numero_processo with value &quot;numero_processo:789&quot;" classname="Scenario: User must create a new process to update later" time="0"/>
+  <testcase name="And User fill field natureza with value &quot;natureza:789&quot;" classname="Scenario: User must create a new process to update later" time="0"/>
+  <testcase name="And User fill field partes with value &quot;partes:789&quot;" classname="Scenario: User must create a new process to update later" time="0"/>
+  <testcase name="And User fill field urgente with value &quot;N&quot;" classname="Scenario: User must create a new process to update later" time="0"/>
+  <testcase name="And User fill field arbitramento with value &quot;N&quot;" classname="Scenario: User must create a new process to update later" time="0"/>
+  <testcase name="And User fill field assistencia_social with value &quot;assistencia_social:789&quot;" classname="Scenario: User must create a new process to update later" time="0"/>
+  <testcase name="And User fill field data_entrada with value &quot;06-06-2020&quot;" classname="Scenario: User must create a new process to update later" time="0"/>
+  <testcase name="And User fill field status with value &quot;status:789&quot;" classname="Scenario: User must create a new process to update later" time="0"/>
+  <testcase name="And User click on save button" classname="Scenario: User must create a new process to update later" time="0"/>
+  <testcase name="Then User should see status code 201" classname="Scenario: User must create a new process to update later" time="0"/>
+  <testcase name="Scenario: User must create a new process to update later" classname="Scenario: User must create a new process to update later" time="0"/>
+  <testcase name="Given User already has the process id previously created" classname="Scenario: User want to update the social assistance" time="0"/>
+  <testcase name="And User fill field vara with value &quot;ATUALIZADO:789&quot;" classname="Scenario: User want to update the social assistance" time="0"/>
+  <testcase name="And User fill field numero_processo with value &quot;ATUALIZADO:789&quot;" classname="Scenario: User want to update the social assistance" time="0"/>
+  <testcase name="And User fill field natureza with value &quot;ATUALIZADO:789&quot;" classname="Scenario: User want to update the social assistance" time="0"/>
+  <testcase name="And User fill field partes with value &quot;ATUALIZADO:789&quot;" classname="Scenario: User want to update the social assistance" time="0"/>
+  <testcase name="And User fill field urgente with value &quot;S&quot;" classname="Scenario: User want to update the social assistance" time="0"/>
+  <testcase name="And User fill field arbitramento with value &quot;S&quot;" classname="Scenario: User want to update the social assistance" time="0"/>
+  <testcase name="And User fill field assistencia_social with value &quot;ATUALIZADO&quot;" classname="Scenario: User want to update the social assistance" time="0"/>
+  <testcase name="And User fill field data_entrada with value &quot;06-06-2020&quot;" classname="Scenario: User want to update the social assistance" time="0"/>
+  <testcase name="And User fill field status with value &quot;ATUALIZADO:789&quot;" classname="Scenario: User want to update the social assistance" time="0"/>
+  <testcase name="And User click on button save update" classname="Scenario: User want to update the social assistance" time="0"/>
+  <testcase name="Then User should see status code 200" classname="Scenario: User want to update the social assistance" time="0"/>
+  <testcase name="Scenario: User want to update the social assistance" classname="Scenario: User want to update the social assistance" time="0"/>
+  <testcase name="Then Response should contain &quot;ATUALIZADO:789&quot; as field vara value" classname="Scenario: User want check updated value" time="0.001"/>
+</testsuite>
